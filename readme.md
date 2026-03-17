@@ -152,6 +152,3 @@ These filters are set low by default so the tool produces output immediately, ev
 
 ---
 
-## Licence
-
-MIT
