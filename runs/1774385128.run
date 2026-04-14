@@ -1,0 +1,6890 @@
+{
+  "acts": [
+    "ACT.UNDERDOCKS",
+    "ACT.HIVE",
+    "ACT.GLORY"
+  ],
+  "ascension": 6,
+  "build_id": "v0.100.0",
+  "game_mode": "standard",
+  "killed_by_encounter": "NONE.NONE",
+  "killed_by_event": "NONE.NONE",
+  "map_point_history": [
+    [
+      {
+        "map_point_type": "ancient",
+        "player_stats": [
+          {
+            "ancient_choice": [
+              {
+                "TextKey": "LEAD_PAPERWEIGHT",
+                "title": {
+                  "key": "LEAD_PAPERWEIGHT.title",
+                  "table": "relics"
+                },
+                "was_chosen": true
+              },
+              {
+                "TextKey": "NEOWS_TALISMAN",
+                "title": {
+                  "key": "NEOWS_TALISMAN.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              },
+              {
+                "TextKey": "SCROLL_BOXES",
+                "title": {
+                  "key": "SCROLL_BOXES.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              }
+            ],
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.FISTICUFFS"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.PRODUCTION"
+              }
+            ],
+            "current_gold": 99,
+            "current_hp": 60,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "LEAD_PAPERWEIGHT.title",
+                  "table": "relics"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 60,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "relic_choices": [
+              {
+                "choice": "RELIC.LEAD_PAPERWEIGHT",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "ancient_choice": [
+              {
+                "TextKey": "NEOWS_TALISMAN",
+                "title": {
+                  "key": "NEOWS_TALISMAN.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              },
+              {
+                "TextKey": "LOST_COFFER",
+                "title": {
+                  "key": "LOST_COFFER.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              },
+              {
+                "TextKey": "LEAFY_POULTICE",
+                "title": {
+                  "key": "LEAFY_POULTICE.title",
+                  "table": "relics"
+                },
+                "was_chosen": true
+              }
+            ],
+            "cards_transformed": [
+              {
+                "final_card": {
+                  "floor_added_to_deck": 1,
+                  "id": "CARD.BLIGHT_STRIKE"
+                },
+                "original_card": {
+                  "floor_added_to_deck": 1,
+                  "id": "CARD.STRIKE_NECROBINDER"
+                }
+              },
+              {
+                "final_card": {
+                  "floor_added_to_deck": 1,
+                  "id": "CARD.HIGH_FIVE"
+                },
+                "original_card": {
+                  "floor_added_to_deck": 1,
+                  "id": "CARD.DEFEND_NECROBINDER"
+                }
+              }
+            ],
+            "current_gold": 99,
+            "current_hp": 52,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "LEAFY_POULTICE.title",
+                  "table": "relics"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 52,
+            "max_hp": 54,
+            "max_hp_gained": 0,
+            "max_hp_lost": 12,
+            "player_id": 76561198056455062,
+            "relic_choices": [
+              {
+                "choice": "RELIC.LEAFY_POULTICE",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "ancient_choice": [
+              {
+                "TextKey": "LAVA_ROCK",
+                "title": {
+                  "key": "LAVA_ROCK.title",
+                  "table": "relics"
+                },
+                "was_chosen": true
+              },
+              {
+                "TextKey": "GOLDEN_PEARL",
+                "title": {
+                  "key": "GOLDEN_PEARL.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              },
+              {
+                "TextKey": "HEFTY_TABLET",
+                "title": {
+                  "key": "HEFTY_TABLET.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              }
+            ],
+            "current_gold": 99,
+            "current_hp": 60,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "LAVA_ROCK.title",
+                  "table": "relics"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 60,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "relic_choices": [
+              {
+                "choice": "RELIC.LAVA_ROCK",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.NEOW",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 2,
+                  "id": "CARD.SOLAR_STRIKE"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.GATHER_LIGHT"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SPOILS_OF_BATTLE"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 2,
+                "id": "CARD.SOLAR_STRIKE"
+              }
+            ],
+            "current_gold": 112,
+            "current_hp": 48,
+            "damage_taken": 12,
+            "gold_gained": 13,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 2,
+                  "id": "CARD.MELANCHOLY"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.ENFEEBLING_TOUCH"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SOW"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 2,
+                "id": "CARD.MELANCHOLY"
+              }
+            ],
+            "current_gold": 111,
+            "current_hp": 46,
+            "damage_taken": 6,
+            "gold_gained": 12,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 54,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "potion_choices": [
+              {
+                "choice": "POTION.STRENGTH_POTION",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 2,
+                  "id": "CARD.SWEEPING_BEAM"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.SKIM"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.LOOP"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.SWEEPING_BEAM"
+              }
+            ],
+            "current_gold": 114,
+            "current_hp": 58,
+            "damage_taken": 2,
+            "gold_gained": 15,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.CORPSE_SLUGS_WEAK",
+            "monster_ids": [
+              "MONSTER.CORPSE_SLUG",
+              "MONSTER.CORPSE_SLUG"
+            ],
+            "room_type": "monster",
+            "turns_taken": 4
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 3,
+                  "id": "CARD.BLACK_HOLE"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.KNOW_THY_PLACE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SPOILS_OF_BATTLE"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 3,
+                "id": "CARD.BLACK_HOLE"
+              }
+            ],
+            "current_gold": 119,
+            "current_hp": 42,
+            "damage_taken": 6,
+            "gold_gained": 7,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 3,
+                  "id": "CARD.WISP"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.GRAVE_WARDEN"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SEVERANCE"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 3,
+                "id": "CARD.WISP"
+              }
+            ],
+            "current_gold": 120,
+            "current_hp": 46,
+            "damage_taken": 0,
+            "gold_gained": 9,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 54,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 3,
+                  "id": "CARD.FOCUSED_STRIKE"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.GUNK_UP"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SCRAPE"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.FOCUSED_STRIKE"
+              }
+            ],
+            "current_gold": 128,
+            "current_hp": 52,
+            "damage_taken": 6,
+            "gold_gained": 14,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "potion_choices": [
+              {
+                "choice": "POTION.REGEN_POTION",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.SEAPUNK_WEAK",
+            "monster_ids": [
+              "MONSTER.SEAPUNK"
+            ],
+            "room_type": "monster",
+            "turns_taken": 3
+          }
+        ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "current_gold": 119,
+            "current_hp": 42,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "DROWNING_BEACON.pages.INITIAL.options.BOTTLE.title",
+                  "table": "events"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_choices": [
+              {
+                "choice": "POTION.GLOWWATER_POTION",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "current_gold": 120,
+            "current_hp": 46,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "DROWNING_BEACON.pages.INITIAL.options.BOTTLE.title",
+                  "table": "events"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 54,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "potion_choices": [
+              {
+                "choice": "POTION.GLOWWATER_POTION",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "current_gold": 128,
+            "current_hp": 52,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "DROWNING_BEACON.pages.INITIAL.options.CLIMB.title",
+                  "table": "events"
+                },
+                "variables": {
+                  "Potion": {
+                    "type": "DynamicString",
+                    "decimal_value": 0,
+                    "bool_value": false,
+                    "string_value": "Glowwater Potion"
+                  },
+                  "Relic": {
+                    "type": "DynamicString",
+                    "decimal_value": 0,
+                    "bool_value": false,
+                    "string_value": "Fresnel Lens"
+                  }
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 62,
+            "max_hp_gained": 0,
+            "max_hp_lost": 13,
+            "player_id": 76561197999477537,
+            "relic_choices": [
+              {
+                "choice": "RELIC.FRESNEL_LENS",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.DROWNING_BEACON",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 5,
+                  "id": "CARD.GUIDING_STAR"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.SUMMON_FORTH"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SOLAR_STRIKE"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 5,
+                "id": "CARD.GUIDING_STAR"
+              }
+            ],
+            "current_gold": 126,
+            "current_hp": 34,
+            "damage_taken": 8,
+            "gold_gained": 7,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_choices": [
+              {
+                "choice": "POTION.OROBIC_ACID",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 5,
+                  "id": "CARD.FETCH"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.HIGH_FIVE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.PULL_AGGRO"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 5,
+                "id": "CARD.FETCH"
+              }
+            ],
+            "current_gold": 131,
+            "current_hp": 46,
+            "damage_taken": 0,
+            "gold_gained": 11,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 54,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 5,
+                  "id": "CARD.REFRACT"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.COOLHEADED"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.OVERCLOCK"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.REFRACT"
+              }
+            ],
+            "current_gold": 138,
+            "current_hp": 49,
+            "damage_taken": 3,
+            "gold_gained": 10,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 62,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.SLUDGE_SPINNER_WEAK",
+            "monster_ids": [
+              "MONSTER.SLUDGE_SPINNER"
+            ],
+            "room_type": "monster",
+            "turns_taken": 3
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 6,
+                  "id": "CARD.COSMIC_INDIFFERENCE"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.PILLAR_OF_CREATION"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.ORBIT"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 6,
+                "id": "CARD.COSMIC_INDIFFERENCE"
+              }
+            ],
+            "current_gold": 133,
+            "current_hp": 20,
+            "damage_taken": 14,
+            "gold_gained": 7,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 6,
+                  "id": "CARD.PARSE"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.REAVE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.FEAR"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 6,
+                "id": "CARD.PARSE"
+              }
+            ],
+            "current_gold": 143,
+            "current_hp": 39,
+            "damage_taken": 7,
+            "gold_gained": 12,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 54,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 6,
+                  "id": "CARD.CAPACITOR"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.MOMENTUM_STRIKE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.DOUBLE_ENERGY"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.CAPACITOR"
+              }
+            ],
+            "current_gold": 148,
+            "current_hp": 30,
+            "damage_taken": 19,
+            "gold_gained": 10,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 62,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.PUNCH_CONSTRUCT_NORMAL",
+            "monster_ids": [
+              "MONSTER.PUNCH_CONSTRUCT"
+            ],
+            "room_type": "monster",
+            "turns_taken": 5
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 133,
+            "current_hp": 20,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.SOLAR_STRIKE"
+            ]
+          },
+          {
+            "current_gold": 143,
+            "current_hp": 39,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 54,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.PARSE"
+            ]
+          },
+          {
+            "current_gold": 148,
+            "current_hp": 30,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 62,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.ZAP"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 8,
+                  "id": "CARD.GLITTERSTREAM"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.KNOW_THY_PLACE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.GLIMMER"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 8,
+                "id": "CARD.GLITTERSTREAM"
+              }
+            ],
+            "current_gold": 142,
+            "current_hp": 6,
+            "damage_taken": 14,
+            "gold_gained": 9,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_choices": [
+              {
+                "choice": "POTION.SWIFT_POTION",
+                "was_picked": false
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 8,
+                  "id": "CARD.TRANSFIGURE"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.DANSE_MACABRE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.GRAVEBLAST"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 8,
+                "id": "CARD.TRANSFIGURE"
+              }
+            ],
+            "current_gold": 151,
+            "current_hp": 34,
+            "damage_taken": 5,
+            "gold_gained": 8,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 54,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "potion_choices": [
+              {
+                "choice": "POTION.SNECKO_OIL",
+                "was_picked": false
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.SUNDER"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.CLAW"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.FERAL"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 157,
+            "current_hp": 19,
+            "damage_taken": 11,
+            "gold_gained": 9,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 62,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "potion_choices": [
+              {
+                "choice": "POTION.FORTIFIER",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.CULTISTS_NORMAL",
+            "monster_ids": [
+              "MONSTER.CALCIFIED_CULTIST",
+              "MONSTER.DAMP_CULTIST"
+            ],
+            "room_type": "monster",
+            "turns_taken": 4
+          }
+        ]
+      },
+      {
+        "map_point_type": "treasure",
+        "player_stats": [
+          {
+            "current_gold": 175,
+            "current_hp": 6,
+            "damage_taken": 0,
+            "gold_gained": 33,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "relic_choices": [
+              {
+                "choice": "RELIC.LANTERN",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "current_gold": 187,
+            "current_hp": 34,
+            "damage_taken": 0,
+            "gold_gained": 36,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 54,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "relic_choices": [
+              {
+                "choice": "RELIC.RAZOR_TOOTH",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "current_gold": 193,
+            "current_hp": 19,
+            "damage_taken": 0,
+            "gold_gained": 36,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 62,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "relic_choices": [
+              {
+                "choice": "RELIC.STURDY_CLAMP",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "treasure",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "current_gold": 175,
+            "current_hp": 6,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "SUNKEN_STATUE.pages.INITIAL.options.GRAB_SWORD.title",
+                  "table": "events"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "relic_choices": [
+              {
+                "choice": "RELIC.SWORD_OF_STONE",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "current_gold": 304,
+            "current_hp": 27,
+            "damage_taken": 7,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "SUNKEN_STATUE.pages.INITIAL.options.DIVE_INTO_WATER.title",
+                  "table": "events"
+                }
+              }
+            ],
+            "gold_gained": 117,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 54,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062
+          },
+          {
+            "current_gold": 193,
+            "current_hp": 19,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "SUNKEN_STATUE.pages.INITIAL.options.GRAB_SWORD.title",
+                  "table": "events"
+                },
+                "variables": {
+                  "Relic": {
+                    "type": "DynamicString",
+                    "decimal_value": 0,
+                    "bool_value": false,
+                    "string_value": "Sword of Stone"
+                  },
+                  "HpLoss": {
+                    "type": "BaseDynamic",
+                    "decimal_value": 7,
+                    "bool_value": false,
+                    "string_value": null
+                  }
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 62,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "relic_choices": [
+              {
+                "choice": "RELIC.SWORD_OF_STONE",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.SUNKEN_STATUE",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "elite",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 11,
+                  "id": "CARD.I_AM_INVINCIBLE"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.ROYAL_GAMBLE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.GLIMMER"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 11,
+                "id": "CARD.I_AM_INVINCIBLE"
+              }
+            ],
+            "current_gold": 208,
+            "current_hp": 6,
+            "damage_taken": 0,
+            "gold_gained": 33,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_choices": [
+              {
+                "choice": "POTION.STABLE_SERUM",
+                "was_picked": true
+              }
+            ],
+            "potion_used": [
+              "POTION.OROBIC_ACID"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.FENCING_MANUAL",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 11,
+                  "id": "CARD.INVOKE"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.REAP"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SPUR"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 11,
+                "id": "CARD.INVOKE"
+              }
+            ],
+            "current_gold": 337,
+            "current_hp": 12,
+            "damage_taken": 15,
+            "gold_gained": 33,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 54,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "potion_choices": [
+              {
+                "choice": "POTION.DEXTERITY_POTION",
+                "was_picked": true
+              }
+            ],
+            "potion_used": [
+              "POTION.STRENGTH_POTION"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.STRIKE_DUMMY",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 11,
+                  "id": "CARD.CONSUMING_SHADOW"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.SUNDER"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.CHAOS"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.CONSUMING_SHADOW"
+              }
+            ],
+            "current_gold": 220,
+            "current_hp": 11,
+            "damage_taken": 22,
+            "gold_gained": 27,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 14,
+            "max_hp": 62,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "potion_used": [
+              "POTION.REGEN_POTION"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.BOOK_OF_FIVE_RINGS",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.TERROR_EEL_ELITE",
+            "monster_ids": [
+              "MONSTER.TERROR_EEL"
+            ],
+            "room_type": "elite",
+            "turns_taken": 5
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 208,
+            "current_hp": 28,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 22,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "rest_site_choices": [
+              "HEAL"
+            ]
+          },
+          {
+            "current_gold": 337,
+            "current_hp": 28,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 16,
+            "max_hp": 54,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "rest_site_choices": [
+              "HEAL"
+            ]
+          },
+          {
+            "current_gold": 220,
+            "current_hp": 29,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 18,
+            "max_hp": 62,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "rest_site_choices": [
+              "HEAL"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "shop",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 13,
+                  "id": "CARD.CHILD_OF_THE_STARS"
+                },
+                "was_picked": true
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 13,
+                "id": "CARD.CHILD_OF_THE_STARS"
+              }
+            ],
+            "cards_removed": [
+              {
+                "floor_added_to_deck": 1,
+                "id": "CARD.STRIKE_REGENT"
+              }
+            ],
+            "current_gold": 5,
+            "current_hp": 28,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 128,
+            "gold_spent": 75,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_choices": [
+              {
+                "choice": "POTION.POWER_POTION",
+                "was_picked": true
+              }
+            ],
+            "potion_discarded": [
+              "POTION.STABLE_SERUM"
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 13,
+                  "id": "CARD.DEATHBRINGER"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "floor_added_to_deck": 13,
+                  "id": "CARD.DANSE_MACABRE"
+                },
+                "was_picked": true
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 13,
+                "id": "CARD.DEATHBRINGER"
+              },
+              {
+                "floor_added_to_deck": 13,
+                "id": "CARD.DANSE_MACABRE"
+              }
+            ],
+            "cards_removed": [
+              {
+                "floor_added_to_deck": 1,
+                "id": "CARD.STRIKE_NECROBINDER"
+              }
+            ],
+            "current_gold": 153,
+            "current_hp": 28,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 109,
+            "gold_spent": 75,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 54,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.METEOR_STRIKE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.ROCKET_PUNCH"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.HAILSTORM"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.AUTOMATION"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.ROLLING_BOULDER"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "enchantment": {
+                  "amount": 2,
+                  "id": "ENCHANTMENT.NIMBLE"
+                },
+                "id": "CARD.LIGHTNING_ROD"
+              },
+              {
+                "enchantment": {
+                  "amount": 2,
+                  "id": "ENCHANTMENT.NIMBLE"
+                },
+                "id": "CARD.HOLOGRAM"
+              }
+            ],
+            "cards_removed": [
+              {
+                "floor_added_to_deck": 1,
+                "id": "CARD.STRIKE_DEFECT"
+              }
+            ],
+            "current_gold": 45,
+            "current_hp": 29,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 175,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 62,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "potion_choices": [
+              {
+                "choice": "POTION.SPEED_POTION",
+                "was_picked": false
+              },
+              {
+                "choice": "POTION.EXPLOSIVE_AMPOULE",
+                "was_picked": false
+              },
+              {
+                "choice": "POTION.REGEN_POTION",
+                "was_picked": false
+              }
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.REPTILE_TRINKET",
+                "was_picked": false
+              },
+              {
+                "choice": "RELIC.GREMLIN_HORN",
+                "was_picked": false
+              },
+              {
+                "choice": "RELIC.PUNCH_DAGGER",
+                "was_picked": false
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "shop",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "elite",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 14,
+                  "id": "CARD.GUARDS"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.TYRANNY"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.RADIATE"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 14,
+                "id": "CARD.GUARDS"
+              }
+            ],
+            "current_gold": 38,
+            "current_hp": 22,
+            "damage_taken": 6,
+            "gold_gained": 33,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_choices": [
+              {
+                "choice": "POTION.STRENGTH_POTION",
+                "was_picked": true
+              }
+            ],
+            "potion_used": [
+              "POTION.POWER_POTION"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.BLOOD_VIAL",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 14,
+                  "id": "CARD.ERADICATE"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.FEAR"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.WISP"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 14,
+                "id": "CARD.ERADICATE"
+              }
+            ],
+            "current_gold": 201,
+            "current_hp": 10,
+            "damage_taken": 18,
+            "gold_gained": 48,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 54,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "potion_used": [
+              "POTION.DEXTERITY_POTION"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.LUCKY_FYSH",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 14,
+                  "id": "CARD.COLD_SNAP"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.CAPACITOR"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.OVERCLOCK"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.COLD_SNAP"
+              }
+            ],
+            "current_gold": 74,
+            "current_hp": 14,
+            "damage_taken": 15,
+            "gold_gained": 29,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 62,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "potion_choices": [
+              {
+                "choice": "POTION.RADIANT_TINCTURE",
+                "was_picked": true
+              }
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.KUSARIGAMA",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.SKULKING_COLONY_ELITE",
+            "monster_ids": [
+              "MONSTER.SKULKING_COLONY"
+            ],
+            "room_type": "elite",
+            "turns_taken": 5
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 38,
+            "current_hp": 44,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 22,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "rest_site_choices": [
+              "HEAL"
+            ]
+          },
+          {
+            "current_gold": 201,
+            "current_hp": 26,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 16,
+            "max_hp": 54,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "rest_site_choices": [
+              "HEAL"
+            ]
+          },
+          {
+            "current_gold": 74,
+            "current_hp": 14,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 62,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.HOLOGRAM"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "boss",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 16,
+                  "id": "CARD.GENESIS"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.COMET"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.ARSENAL"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 16,
+                "id": "CARD.GENESIS"
+              }
+            ],
+            "current_gold": 113,
+            "current_hp": 40,
+            "damage_taken": 6,
+            "gold_gained": 75,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 2,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_used": [
+              "POTION.GLOWWATER_POTION"
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 16,
+                  "id": "CARD.SENTRY_MODE"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.NECRO_MASTERY"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.TRANSFIGURE"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 16,
+                "id": "CARD.SENTRY_MODE"
+              }
+            ],
+            "current_gold": 291,
+            "current_hp": 26,
+            "damage_taken": 0,
+            "gold_gained": 90,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 54,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 16,
+                  "id": "CARD.SUPERCRITICAL"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.HYPERBEAM"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.MODDED"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.SUPERCRITICAL"
+              }
+            ],
+            "current_gold": 149,
+            "current_hp": 25,
+            "damage_taken": 9,
+            "gold_gained": 75,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 20,
+            "max_hp": 62,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "potion_choices": [
+              {
+                "choice": "POTION.CURE_ALL",
+                "was_picked": true
+              }
+            ],
+            "potion_used": [
+              "POTION.RADIANT_TINCTURE"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.HAPPY_FLOWER",
+                "was_picked": true
+              },
+              {
+                "choice": "RELIC.NUNCHAKU",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.WATERFALL_GIANT_BOSS",
+            "monster_ids": [
+              "MONSTER.WATERFALL_GIANT"
+            ],
+            "room_type": "boss",
+            "turns_taken": 10
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "map_point_type": "ancient",
+        "player_stats": [
+          {
+            "ancient_choice": [
+              {
+                "TextKey": "PAELS_TEARS",
+                "title": {
+                  "key": "PAELS_TEARS.title",
+                  "table": "relics"
+                },
+                "was_chosen": true
+              },
+              {
+                "TextKey": "PAELS_GROWTH",
+                "title": {
+                  "key": "PAELS_GROWTH.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              },
+              {
+                "TextKey": "PAELS_EYE",
+                "title": {
+                  "key": "PAELS_EYE.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              }
+            ],
+            "current_gold": 113,
+            "current_hp": 68,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "PAELS_TEARS.title",
+                  "table": "relics"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 28,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "relic_choices": [
+              {
+                "choice": "RELIC.PAELS_TEARS",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "ancient_choice": [
+              {
+                "TextKey": "PAELS_FLESH",
+                "title": {
+                  "key": "PAELS_FLESH.title",
+                  "table": "relics"
+                },
+                "was_chosen": true
+              },
+              {
+                "TextKey": "PAELS_CLAW",
+                "title": {
+                  "key": "PAELS_CLAW.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              },
+              {
+                "TextKey": "PAELS_LEGION",
+                "title": {
+                  "key": "PAELS_LEGION.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              }
+            ],
+            "current_gold": 291,
+            "current_hp": 48,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "PAELS_FLESH.title",
+                  "table": "relics"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 22,
+            "max_hp": 54,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "relic_choices": [
+              {
+                "choice": "RELIC.PAELS_FLESH",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "ancient_choice": [
+              {
+                "TextKey": "PAELS_HORN",
+                "title": {
+                  "key": "PAELS_HORN.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              },
+              {
+                "TextKey": "PAELS_CLAW",
+                "title": {
+                  "key": "PAELS_CLAW.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              },
+              {
+                "TextKey": "PAELS_LEGION",
+                "title": {
+                  "key": "PAELS_LEGION.title",
+                  "table": "relics"
+                },
+                "was_chosen": true
+              }
+            ],
+            "current_gold": 149,
+            "current_hp": 54,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "PAELS_LEGION.title",
+                  "table": "relics"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 29,
+            "max_hp": 62,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "relic_choices": [
+              {
+                "choice": "RELIC.PAELS_LEGION",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.PAEL",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 18,
+                  "id": "CARD.PRODUCTION"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "floor_added_to_deck": 18,
+                  "id": "CARD.SPECTRUM_SHIFT"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.GLOW"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.GLITTERSTREAM"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 18,
+                "id": "CARD.PRODUCTION"
+              },
+              {
+                "current_upgrade_level": 1,
+                "floor_added_to_deck": 18,
+                "id": "CARD.SPECTRUM_SHIFT"
+              }
+            ],
+            "cards_removed": [
+              {
+                "floor_added_to_deck": 1,
+                "id": "CARD.PRODUCTION"
+              }
+            ],
+            "current_gold": 125,
+            "current_hp": 68,
+            "damage_taken": 2,
+            "gold_gained": 12,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 2,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_choices": [
+              {
+                "choice": "POTION.FIRE_POTION",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "floor_added_to_deck": 18,
+                  "id": "CARD.PARSE"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "floor_added_to_deck": 18,
+                  "id": "CARD.DEATHS_DOOR"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.NEGATIVE_PULSE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.DEFY"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "current_upgrade_level": 1,
+                "floor_added_to_deck": 18,
+                "id": "CARD.PARSE"
+              },
+              {
+                "floor_added_to_deck": 18,
+                "id": "CARD.DEATHS_DOOR"
+              }
+            ],
+            "cards_removed": [
+              {
+                "current_upgrade_level": 1,
+                "floor_added_to_deck": 6,
+                "id": "CARD.PARSE"
+              }
+            ],
+            "current_gold": 331,
+            "current_hp": 41,
+            "damage_taken": 7,
+            "gold_gained": 40,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 54,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 18,
+                  "id": "CARD.FTL"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "enchantment": {
+                    "amount": 2,
+                    "id": "ENCHANTMENT.NIMBLE"
+                  },
+                  "id": "CARD.GLASSWORK"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.ROCKET_PUNCH"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 5,
+                "id": "CARD.REFRACT"
+              },
+              {
+                "id": "CARD.FTL"
+              }
+            ],
+            "cards_removed": [
+              {
+                "floor_added_to_deck": 5,
+                "id": "CARD.REFRACT"
+              }
+            ],
+            "current_gold": 156,
+            "current_hp": 54,
+            "damage_taken": 0,
+            "gold_gained": 7,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 62,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "potion_choices": [
+              {
+                "choice": "POTION.FRUIT_JUICE",
+                "was_picked": true
+              }
+            ],
+            "potion_used": [
+              "POTION.CURE_ALL"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.THIEVING_HOPPER_WEAK",
+            "monster_ids": [
+              "MONSTER.THIEVING_HOPPER"
+            ],
+            "room_type": "monster",
+            "turns_taken": 5
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 19,
+                  "id": "CARD.SUPERMASSIVE"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.CRESCENT_SPEAR"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SPOILS_OF_BATTLE"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 19,
+                "id": "CARD.SUPERMASSIVE"
+              }
+            ],
+            "current_gold": 139,
+            "current_hp": 68,
+            "damage_taken": 2,
+            "gold_gained": 14,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 2,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_choices": [
+              {
+                "choice": "POTION.BLESSING_OF_THE_FORGE",
+                "was_picked": true
+              }
+            ],
+            "potion_discarded": [
+              "POTION.FIRE_POTION"
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 19,
+                  "id": "CARD.GRAVE_WARDEN"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.DANSE_MACABRE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.GRAVEBLAST"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 19,
+                "id": "CARD.GRAVE_WARDEN"
+              }
+            ],
+            "current_gold": 353,
+            "current_hp": 23,
+            "damage_taken": 18,
+            "gold_gained": 22,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 54,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "potion_choices": [
+              {
+                "choice": "POTION.POWER_POTION",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "enchantment": {
+                    "amount": 2,
+                    "id": "ENCHANTMENT.NIMBLE"
+                  },
+                  "floor_added_to_deck": 19,
+                  "id": "CARD.BOOST_AWAY"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.SMOKESTACK"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.CLAW"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "enchantment": {
+                  "amount": 2,
+                  "id": "ENCHANTMENT.NIMBLE"
+                },
+                "id": "CARD.BOOST_AWAY"
+              }
+            ],
+            "current_gold": 163,
+            "current_hp": 56,
+            "damage_taken": 3,
+            "gold_gained": 7,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 5,
+            "max_hp": 67,
+            "max_hp_gained": 5,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "potion_choices": [
+              {
+                "choice": "POTION.FLEX_POTION",
+                "was_picked": true
+              }
+            ],
+            "potion_used": [
+              "POTION.FRUIT_JUICE"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.EXOSKELETONS_WEAK",
+            "monster_ids": [
+              "MONSTER.EXOSKELETON",
+              "MONSTER.EXOSKELETON",
+              "MONSTER.EXOSKELETON"
+            ],
+            "room_type": "monster",
+            "turns_taken": 3
+          }
+        ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "cards_gained": [
+              {
+                "id": "CARD.CELESTIAL_MIGHT"
+              },
+              {
+                "id": "CARD.ASTRAL_PULSE"
+              }
+            ],
+            "current_gold": 139,
+            "current_hp": 68,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "ROOM_FULL_OF_CHEESE.pages.INITIAL.options.GORGE.title",
+                  "table": "events"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931
+          },
+          {
+            "current_gold": 353,
+            "current_hp": 9,
+            "damage_taken": 14,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "ROOM_FULL_OF_CHEESE.pages.INITIAL.options.SEARCH.title",
+                  "table": "events"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 54,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "relic_choices": [
+              {
+                "choice": "RELIC.CHOSEN_CHEESE",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "cards_gained": [
+              {
+                "enchantment": {
+                  "amount": 2,
+                  "id": "ENCHANTMENT.NIMBLE"
+                },
+                "id": "CARD.CHARGE_BATTERY"
+              },
+              {
+                "id": "CARD.COMPILE_DRIVER"
+              }
+            ],
+            "current_gold": 163,
+            "current_hp": 67,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "ROOM_FULL_OF_CHEESE.pages.INITIAL.options.GORGE.title",
+                  "table": "events"
+                },
+                "variables": {}
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 11,
+            "max_hp": 67,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.ROOM_FULL_OF_CHEESE",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "shop",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 21,
+                  "id": "CARD.CHILD_OF_THE_STARS"
+                },
+                "was_picked": true
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 21,
+                "id": "CARD.CHILD_OF_THE_STARS"
+              }
+            ],
+            "cards_removed": [
+              {
+                "floor_added_to_deck": 1,
+                "id": "CARD.STRIKE_REGENT"
+              }
+            ],
+            "current_gold": 2,
+            "current_hp": 68,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 37,
+            "gold_spent": 100,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931
+          },
+          {
+            "cards_enchanted": [
+              {
+                "card": {
+                  "enchantment": {
+                    "amount": 5,
+                    "id": "ENCHANTMENT.MOMENTUM"
+                  },
+                  "floor_added_to_deck": 14,
+                  "id": "CARD.ERADICATE"
+                },
+                "enchantment": "ENCHANTMENT.MOMENTUM"
+              }
+            ],
+            "cards_removed": [
+              {
+                "floor_added_to_deck": 1,
+                "id": "CARD.STRIKE_NECROBINDER"
+              }
+            ],
+            "current_gold": 37,
+            "current_hp": 9,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 216,
+            "gold_spent": 100,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 54,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "relic_choices": [
+              {
+                "choice": "RELIC.PUNCH_DAGGER",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.ROCKET_PUNCH"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.GUNK_UP"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "enchantment": {
+                    "amount": 2,
+                    "id": "ENCHANTMENT.NIMBLE"
+                  },
+                  "id": "CARD.BOOT_SEQUENCE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.COOLHEADED"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.GANG_UP"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.BEAT_DOWN"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.LOOP"
+              }
+            ],
+            "cards_removed": [
+              {
+                "floor_added_to_deck": 1,
+                "id": "CARD.STRIKE_DEFECT"
+              }
+            ],
+            "current_gold": 27,
+            "current_hp": 67,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 136,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 67,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "potion_choices": [
+              {
+                "choice": "POTION.FLEX_POTION",
+                "was_picked": false
+              },
+              {
+                "choice": "POTION.BLESSING_OF_THE_FORGE",
+                "was_picked": false
+              },
+              {
+                "choice": "POTION.ENTROPIC_BREW",
+                "was_picked": false
+              }
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.MEAT_ON_THE_BONE",
+                "was_picked": false
+              },
+              {
+                "choice": "RELIC.BAG_OF_PREPARATION",
+                "was_picked": false
+              },
+              {
+                "choice": "RELIC.GNARLED_HAMMER",
+                "was_picked": false
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "shop",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "elite",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 22,
+                  "id": "CARD.BLACK_HOLE"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.SPOILS_OF_BATTLE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.CONQUEROR"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 22,
+                "id": "CARD.BLACK_HOLE"
+              }
+            ],
+            "current_gold": 31,
+            "current_hp": 36,
+            "damage_taken": 34,
+            "gold_gained": 29,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 2,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_choices": [
+              {
+                "choice": "POTION.BLESSING_OF_THE_FORGE",
+                "was_picked": true
+              }
+            ],
+            "potion_used": [
+              "POTION.BLESSING_OF_THE_FORGE"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.POTION_BELT",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "floor_added_to_deck": 22,
+                  "id": "CARD.GRAVEBLAST"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.DRAIN_POWER"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.REAP"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "current_upgrade_level": 1,
+                "floor_added_to_deck": 22,
+                "id": "CARD.GRAVEBLAST"
+              }
+            ],
+            "current_gold": 84,
+            "current_hp": 6,
+            "damage_taken": 4,
+            "gold_gained": 47,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 55,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "potion_choices": [
+              {
+                "choice": "POTION.SPEED_POTION",
+                "was_picked": true
+              }
+            ],
+            "potion_used": [
+              "POTION.POWER_POTION",
+              "POTION.GLOWWATER_POTION"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.GORGET",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "enchantment": {
+                    "amount": 2,
+                    "id": "ENCHANTMENT.NIMBLE"
+                  },
+                  "floor_added_to_deck": 22,
+                  "id": "CARD.COMPACT"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.SPINNER"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.BEAM_CELL"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 2,
+                  "id": "ENCHANTMENT.NIMBLE"
+                },
+                "id": "CARD.COMPACT"
+              }
+            ],
+            "current_gold": 54,
+            "current_hp": 60,
+            "damage_taken": 7,
+            "gold_gained": 27,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 67,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "potion_used": [
+              "POTION.FORTIFIER"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.ANCHOR",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.ENTOMANCER_ELITE",
+            "monster_ids": [
+              "MONSTER.ENTOMANCER"
+            ],
+            "room_type": "elite",
+            "turns_taken": 7
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 23,
+                  "id": "CARD.GUIDING_STAR"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.GLOW"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.GATHER_LIGHT"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 23,
+                "id": "CARD.GUIDING_STAR"
+              }
+            ],
+            "current_gold": 44,
+            "current_hp": 11,
+            "damage_taken": 27,
+            "gold_gained": 13,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 2,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_used": [
+              "POTION.BLESSING_OF_THE_FORGE"
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.HANG"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.HAUNT"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.DEFILE"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 93,
+            "current_hp": 2,
+            "damage_taken": 6,
+            "gold_gained": 9,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 2,
+            "max_hp": 56,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "potion_choices": [
+              {
+                "choice": "POTION.BONE_BREW",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "floor_added_to_deck": 23,
+                  "id": "CARD.BARRAGE"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.GO_FOR_THE_EYES"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.BEAM_CELL"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "current_upgrade_level": 1,
+                "id": "CARD.BARRAGE"
+              }
+            ],
+            "current_gold": 65,
+            "current_hp": 60,
+            "damage_taken": 0,
+            "gold_gained": 11,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 67,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.MYTES_NORMAL",
+            "monster_ids": [
+              "MONSTER.MYTE",
+              "MONSTER.MYTE"
+            ],
+            "room_type": "monster",
+            "turns_taken": 5
+          }
+        ]
+      },
+      {
+        "map_point_type": "treasure",
+        "player_stats": [
+          {
+            "current_gold": 79,
+            "current_hp": 11,
+            "damage_taken": 0,
+            "gold_gained": 35,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "relic_choices": [
+              {
+                "choice": "RELIC.GAME_PIECE",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "current_gold": 124,
+            "current_hp": 2,
+            "damage_taken": 0,
+            "gold_gained": 31,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 56,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "relic_choices": [
+              {
+                "choice": "RELIC.PANTOGRAPH",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "current_gold": 101,
+            "current_hp": 60,
+            "damage_taken": 0,
+            "gold_gained": 36,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 67,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "relic_choices": [
+              {
+                "choice": "RELIC.BAG_OF_PREPARATION",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "treasure",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "elite",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 25,
+                  "id": "CARD.ARSENAL"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.GATHER_LIGHT"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.CLOAK_OF_STARS"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 25,
+                "id": "CARD.ARSENAL"
+              }
+            ],
+            "current_gold": 105,
+            "current_hp": 1,
+            "damage_taken": 13,
+            "gold_gained": 26,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 3,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_choices": [
+              {
+                "choice": "POTION.HEART_OF_IRON",
+                "was_picked": true
+              }
+            ],
+            "potion_used": [
+              "POTION.STRENGTH_POTION"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.RED_MASK",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 25,
+                  "id": "CARD.SPUR"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.GRAVEBLAST"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.BLIGHT_STRIKE"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 25,
+                "id": "CARD.SPUR"
+              }
+            ],
+            "current_gold": 166,
+            "current_hp": 2,
+            "damage_taken": 2,
+            "gold_gained": 42,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 2,
+            "max_hp": 57,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "potion_choices": [
+              {
+                "choice": "POTION.STRENGTH_POTION",
+                "was_picked": true
+              }
+            ],
+            "potion_used": [
+              "POTION.BONE_BREW",
+              "POTION.SPEED_POTION"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.BAG_OF_MARBLES",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 25,
+                  "id": "CARD.TRASH_TO_TREASURE"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.COOLHEADED"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SUNDER"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.TRASH_TO_TREASURE"
+              }
+            ],
+            "current_gold": 130,
+            "current_hp": 32,
+            "damage_taken": 28,
+            "gold_gained": 29,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 67,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "relic_choices": [
+              {
+                "choice": "RELIC.BRONZE_SCALES",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.DECIMILLIPEDE_ELITE",
+            "monster_ids": [
+              "MONSTER.DECIMILLIPEDE_SEGMENT_FRONT",
+              "MONSTER.DECIMILLIPEDE_SEGMENT_MIDDLE",
+              "MONSTER.DECIMILLIPEDE_SEGMENT_BACK"
+            ],
+            "room_type": "elite",
+            "turns_taken": 5
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 105,
+            "current_hp": 23,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 22,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "rest_site_choices": [
+              "HEAL"
+            ]
+          },
+          {
+            "current_gold": 166,
+            "current_hp": 19,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 17,
+            "max_hp": 57,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "rest_site_choices": [
+              "HEAL"
+            ]
+          },
+          {
+            "current_gold": 130,
+            "current_hp": 32,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 67,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.LOOP"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "elite",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 27,
+                  "id": "CARD.KNOW_THY_PLACE"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.REFINE_BLADE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.WROUGHT_IN_WAR"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 27,
+                "id": "CARD.KNOW_THY_PLACE"
+              }
+            ],
+            "current_gold": 134,
+            "current_hp": 1,
+            "damage_taken": 25,
+            "gold_gained": 29,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 3,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_used": [
+              "POTION.HEART_OF_IRON"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.SWORD_OF_JADE",
+                "was_picked": true
+              },
+              {
+                "choice": "RELIC.AKABEKO",
+                "was_picked": true
+              }
+            ],
+            "relics_removed": [
+              "RELIC.SWORD_OF_STONE"
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.REAVE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.INVOKE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.DEFILE"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 194,
+            "current_hp": 7,
+            "damage_taken": 13,
+            "gold_gained": 28,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 58,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "relic_choices": [
+              {
+                "choice": "RELIC.UNSETTLING_LAMP",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 27,
+                  "id": "CARD.GUNK_UP"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.BULK_UP"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.FUSION"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.GUNK_UP"
+              }
+            ],
+            "current_gold": 161,
+            "current_hp": 46,
+            "damage_taken": 6,
+            "gold_gained": 31,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 20,
+            "max_hp": 67,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "potion_choices": [
+              {
+                "choice": "POTION.CLARITY",
+                "was_picked": true
+              }
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.SWORD_OF_JADE",
+                "was_picked": true
+              },
+              {
+                "choice": "RELIC.TUNING_FORK",
+                "was_picked": true
+              }
+            ],
+            "relics_removed": [
+              "RELIC.SWORD_OF_STONE"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.INFESTED_PRISMS_ELITE",
+            "monster_ids": [
+              "MONSTER.INFESTED_PRISM"
+            ],
+            "room_type": "elite",
+            "turns_taken": 9
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "floor_added_to_deck": 28,
+                  "id": "CARD.CELESTIAL_MIGHT"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.GLITTERSTREAM"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.WROUGHT_IN_WAR"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "current_upgrade_level": 1,
+                "floor_added_to_deck": 28,
+                "id": "CARD.CELESTIAL_MIGHT"
+              }
+            ],
+            "current_gold": 142,
+            "current_hp": 1,
+            "damage_taken": 3,
+            "gold_gained": 8,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 3,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "floor_added_to_deck": 28,
+                  "id": "CARD.BORROWED_TIME"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.SPUR"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.INVOKE"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "current_upgrade_level": 1,
+                "floor_added_to_deck": 28,
+                "id": "CARD.BORROWED_TIME"
+              }
+            ],
+            "current_gold": 218,
+            "current_hp": 7,
+            "damage_taken": 1,
+            "gold_gained": 24,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 59,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "floor_added_to_deck": 28,
+                  "id": "CARD.HOTFIX"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.ENERGY_SURGE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.GUNK_UP"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "current_upgrade_level": 1,
+                "id": "CARD.HOTFIX"
+              }
+            ],
+            "current_gold": 170,
+            "current_hp": 46,
+            "damage_taken": 0,
+            "gold_gained": 9,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 67,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.HUNTER_KILLER_NORMAL",
+            "monster_ids": [
+              "MONSTER.HUNTER_KILLER"
+            ],
+            "room_type": "monster",
+            "turns_taken": 4
+          }
+        ]
+      },
+      {
+        "map_point_type": "shop",
+        "player_stats": [
+          {
+            "current_gold": 47,
+            "current_hp": 1,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 95,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_choices": [
+              {
+                "choice": "POTION.BEETLE_JUICE",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 29,
+                  "id": "CARD.DEMESNE"
+                },
+                "was_picked": true
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 29,
+                "id": "CARD.DEMESNE"
+              }
+            ],
+            "current_gold": 11,
+            "current_hp": 7,
+            "damage_taken": 0,
+            "gold_gained": 15,
+            "gold_lost": 222,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 59,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "potion_choices": [
+              {
+                "choice": "POTION.DUPLICATOR",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "bought_colorless": [
+              "CARD.SHOCKWAVE"
+            ],
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.SWEEPING_BEAM"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.GUNK_UP"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.RAINBOW"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SMOKESTACK"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.MASTER_OF_STRATEGY"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.SHOCKWAVE"
+              },
+              {
+                "id": "CARD.COOLHEADED"
+              }
+            ],
+            "current_gold": 60,
+            "current_hp": 46,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 110,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 67,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "potion_choices": [
+              {
+                "choice": "POTION.DEXTERITY_POTION",
+                "was_picked": false
+              },
+              {
+                "choice": "POTION.VULNERABLE_POTION",
+                "was_picked": false
+              },
+              {
+                "choice": "POTION.COLORLESS_POTION",
+                "was_picked": false
+              }
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.STRIKE_DUMMY",
+                "was_picked": false
+              },
+              {
+                "choice": "RELIC.DATA_DISK",
+                "was_picked": false
+              },
+              {
+                "choice": "RELIC.RUNIC_CAPACITOR",
+                "was_picked": false
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "shop",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 47,
+            "current_hp": 23,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 22,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "rest_site_choices": [
+              "HEAL"
+            ]
+          },
+          {
+            "current_gold": 11,
+            "current_hp": 7,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 59,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.DEMESNE"
+            ]
+          },
+          {
+            "current_gold": 60,
+            "current_hp": 46,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 67,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.CAPACITOR"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "boss",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 31,
+                  "id": "CARD.BIG_BANG"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.HAMMER_TIME"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.FOREGONE_CONCLUSION"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 31,
+                "id": "CARD.BIG_BANG"
+              }
+            ],
+            "current_gold": 122,
+            "current_hp": 8,
+            "damage_taken": 17,
+            "gold_gained": 75,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 2,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_choices": [
+              {
+                "choice": "POTION.RADIANT_TINCTURE",
+                "was_picked": true
+              }
+            ],
+            "potion_used": [
+              "POTION.BEETLE_JUICE"
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 31,
+                  "id": "CARD.DEMESNE"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.SENTRY_MODE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SHARED_FATE"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 31,
+                "id": "CARD.DEMESNE"
+              }
+            ],
+            "current_gold": 101,
+            "current_hp": 18,
+            "damage_taken": 15,
+            "gold_gained": 90,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 26,
+            "max_hp": 60,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "potion_choices": [
+              {
+                "choice": "POTION.HEART_OF_IRON",
+                "was_picked": true
+              }
+            ],
+            "potion_used": [
+              "POTION.STRENGTH_POTION",
+              "POTION.DUPLICATOR"
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 31,
+                  "id": "CARD.FLAK_CANNON"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.BUFFER"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.ADAPTIVE_STRIKE"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.FLAK_CANNON"
+              }
+            ],
+            "current_gold": 135,
+            "current_hp": 46,
+            "damage_taken": 0,
+            "gold_gained": 75,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 67,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "potion_used": [
+              "POTION.CLARITY"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.KAISER_CRAB_BOSS",
+            "monster_ids": [
+              "MONSTER.CRUSHER",
+              "MONSTER.ROCKET"
+            ],
+            "room_type": "boss",
+            "turns_taken": 7
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "map_point_type": "ancient",
+        "player_stats": [
+          {
+            "ancient_choice": [
+              {
+                "TextKey": "BLOOD_SOAKED_ROSE",
+                "title": {
+                  "key": "BLOOD_SOAKED_ROSE.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              },
+              {
+                "TextKey": "SERE_TALON",
+                "title": {
+                  "key": "SERE_TALON.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              },
+              {
+                "TextKey": "JEWELED_MASK",
+                "title": {
+                  "key": "JEWELED_MASK.title",
+                  "table": "relics"
+                },
+                "was_chosen": true
+              }
+            ],
+            "current_gold": 122,
+            "current_hp": 61,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "JEWELED_MASK.title",
+                  "table": "relics"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 53,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "relic_choices": [
+              {
+                "choice": "RELIC.JEWELED_MASK",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "ancient_choice": [
+              {
+                "TextKey": "BLOOD_SOAKED_ROSE",
+                "title": {
+                  "key": "BLOOD_SOAKED_ROSE.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              },
+              {
+                "TextKey": "PRESERVED_FOG",
+                "title": {
+                  "key": "PRESERVED_FOG.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              },
+              {
+                "TextKey": "JEWELED_MASK",
+                "title": {
+                  "key": "JEWELED_MASK.title",
+                  "table": "relics"
+                },
+                "was_chosen": true
+              }
+            ],
+            "current_gold": 101,
+            "current_hp": 51,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "JEWELED_MASK.title",
+                  "table": "relics"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 33,
+            "max_hp": 60,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "relic_choices": [
+              {
+                "choice": "RELIC.JEWELED_MASK",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "ancient_choice": [
+              {
+                "TextKey": "WHISPERING_EARRING",
+                "title": {
+                  "key": "WHISPERING_EARRING.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              },
+              {
+                "TextKey": "PRESERVED_FOG",
+                "title": {
+                  "key": "PRESERVED_FOG.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              },
+              {
+                "TextKey": "CHOICES_PARADOX",
+                "title": {
+                  "key": "CHOICES_PARADOX.title",
+                  "table": "relics"
+                },
+                "was_chosen": true
+              }
+            ],
+            "current_gold": 135,
+            "current_hp": 62,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "CHOICES_PARADOX.title",
+                  "table": "relics"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 16,
+            "max_hp": 67,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "relic_choices": [
+              {
+                "choice": "RELIC.CHOICES_PARADOX",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.VAKUU",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 33,
+                  "id": "CARD.GLIMMER"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.ASTRAL_PULSE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.GLOW"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 33,
+                "id": "CARD.GLIMMER"
+              }
+            ],
+            "current_gold": 136,
+            "current_hp": 50,
+            "damage_taken": 13,
+            "gold_gained": 14,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 2,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_choices": [
+              {
+                "choice": "POTION.FRUIT_JUICE",
+                "was_picked": true
+              }
+            ],
+            "potion_used": [
+              "POTION.RADIANT_TINCTURE"
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.PULL_AGGRO"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.BLIGHT_STRIKE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.DEATHS_DOOR"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 113,
+            "current_hp": 52,
+            "damage_taken": 0,
+            "gold_gained": 12,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 61,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "potion_choices": [
+              {
+                "choice": "POTION.VULNERABLE_POTION",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 33,
+                  "id": "CARD.TURBO"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.SWEEPING_BEAM"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.CHILL"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.TURBO"
+              }
+            ],
+            "current_gold": 149,
+            "current_hp": 67,
+            "damage_taken": 0,
+            "gold_gained": 14,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 5,
+            "max_hp": 67,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "potion_choices": [
+              {
+                "choice": "POTION.STRENGTH_POTION",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.TURRET_OPERATOR_WEAK",
+            "monster_ids": [
+              "MONSTER.LIVING_SHIELD",
+              "MONSTER.TURRET_OPERATOR"
+            ],
+            "room_type": "monster",
+            "turns_taken": 3
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.GLOW"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.GATHER_LIGHT"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.CELESTIAL_MIGHT"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 150,
+            "current_hp": 57,
+            "damage_taken": 0,
+            "gold_gained": 14,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 7,
+            "max_hp": 80,
+            "max_hp_gained": 5,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_used": [
+              "POTION.FRUIT_JUICE"
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.INVOKE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.DEFILE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.BLIGHT_STRIKE"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 121,
+            "current_hp": 53,
+            "damage_taken": 0,
+            "gold_gained": 8,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 62,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "floor_added_to_deck": 34,
+                  "id": "CARD.BULK_UP"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.UPROAR"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "enchantment": {
+                    "amount": 2,
+                    "id": "ENCHANTMENT.NIMBLE"
+                  },
+                  "id": "CARD.LIGHTNING_ROD"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "current_upgrade_level": 1,
+                "id": "CARD.BULK_UP"
+              }
+            ],
+            "current_gold": 161,
+            "current_hp": 61,
+            "damage_taken": 6,
+            "gold_gained": 12,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 65,
+            "max_hp_gained": 0,
+            "max_hp_lost": 2,
+            "player_id": 76561197999477537
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.SCROLLS_OF_BITING_WEAK",
+            "monster_ids": [
+              "MONSTER.SCROLL_OF_BITING",
+              "MONSTER.SCROLL_OF_BITING",
+              "MONSTER.SCROLL_OF_BITING"
+            ],
+            "room_type": "monster",
+            "turns_taken": 3
+          }
+        ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "current_gold": 150,
+            "current_hp": 57,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "POTION_COURIER.pages.INITIAL.options.GRAB_POTIONS.title",
+                  "table": "events"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 80,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_choices": [
+              {
+                "choice": "POTION.FOUL_POTION",
+                "was_picked": true
+              },
+              {
+                "choice": "POTION.FOUL_POTION",
+                "was_picked": true
+              },
+              {
+                "choice": "POTION.FOUL_POTION",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "current_gold": 121,
+            "current_hp": 53,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "POTION_COURIER.pages.INITIAL.options.RANSACK.title",
+                  "table": "events"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 62,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "potion_choices": [
+              {
+                "choice": "POTION.GAMBLERS_BREW",
+                "was_picked": true
+              }
+            ],
+            "potion_discarded": [
+              "POTION.VULNERABLE_POTION"
+            ]
+          },
+          {
+            "current_gold": 161,
+            "current_hp": 61,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "POTION_COURIER.pages.INITIAL.options.GRAB_POTIONS.title",
+                  "table": "events"
+                },
+                "variables": {
+                  "FoulPotions": {
+                    "type": "BaseDynamic",
+                    "decimal_value": 3,
+                    "bool_value": false,
+                    "string_value": null
+                  }
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 65,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "potion_choices": [
+              {
+                "choice": "POTION.FOUL_POTION",
+                "was_picked": true
+              },
+              {
+                "choice": "POTION.FOUL_POTION",
+                "was_picked": true
+              },
+              {
+                "choice": "POTION.FOUL_POTION",
+                "was_picked": false
+              }
+            ],
+            "potion_discarded": [
+              "POTION.FLEX_POTION",
+              "POTION.STRENGTH_POTION"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.POTION_COURIER",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 36,
+                  "id": "CARD.SPECTRUM_SHIFT"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.BLACK_HOLE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.DECISIONS_DECISIONS"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 36,
+                "id": "CARD.SPECTRUM_SHIFT"
+              }
+            ],
+            "current_gold": 158,
+            "current_hp": 47,
+            "damage_taken": 12,
+            "gold_gained": 8,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 2,
+            "max_hp": 80,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_choices": [
+              {
+                "choice": "POTION.SPEED_POTION",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.REAP"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.GRAVE_WARDEN"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.SPUR"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 131,
+            "current_hp": 54,
+            "damage_taken": 0,
+            "gold_gained": 10,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 63,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 36,
+                  "id": "CARD.SKIM"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.UPROAR"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.COLD_SNAP"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.SKIM"
+              }
+            ],
+            "current_gold": 173,
+            "current_hp": 61,
+            "damage_taken": 0,
+            "gold_gained": 12,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 65,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "potion_choices": [
+              {
+                "choice": "POTION.REGEN_POTION",
+                "was_picked": false
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.OWL_MAGISTRATE_NORMAL",
+            "monster_ids": [
+              "MONSTER.OWL_MAGISTRATE"
+            ],
+            "room_type": "monster",
+            "turns_taken": 6
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 158,
+            "current_hp": 47,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 80,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.SPECTRUM_SHIFT"
+            ]
+          },
+          {
+            "current_gold": 131,
+            "current_hp": 54,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 63,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.DEMESNE"
+            ]
+          },
+          {
+            "current_gold": 173,
+            "current_hp": 61,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 65,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.TRASH_TO_TREASURE"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "treasure",
+        "player_stats": [
+          {
+            "current_gold": 194,
+            "current_hp": 47,
+            "damage_taken": 0,
+            "gold_gained": 36,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 80,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "relic_choices": [
+              {
+                "choice": "RELIC.ETERNAL_FEATHER",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "current_gold": 167,
+            "current_hp": 54,
+            "damage_taken": 0,
+            "gold_gained": 36,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 63,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "relic_choices": [
+              {
+                "choice": "RELIC.CENTENNIAL_PUZZLE",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "current_gold": 208,
+            "current_hp": 68,
+            "damage_taken": 0,
+            "gold_gained": 35,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 7,
+            "max_hp": 72,
+            "max_hp_gained": 7,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "relic_choices": [
+              {
+                "choice": "RELIC.STRAWBERRY",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "treasure",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 194,
+            "current_hp": 65,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 18,
+            "max_hp": 80,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.ARSENAL"
+            ]
+          },
+          {
+            "current_gold": 167,
+            "current_hp": 54,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 63,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.DANSE_MACABRE"
+            ]
+          },
+          {
+            "current_gold": 208,
+            "current_hp": 68,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 72,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.SKIM"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "elite",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 40,
+                  "id": "CARD.DYING_STAR"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.REFINE_BLADE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.CRESCENT_SPEAR"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 40,
+                "id": "CARD.DYING_STAR"
+              }
+            ],
+            "current_gold": 225,
+            "current_hp": 35,
+            "damage_taken": 32,
+            "gold_gained": 31,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 2,
+            "max_hp": 80,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_used": [
+              "POTION.SPEED_POTION"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.CANDELABRA",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 40,
+                  "id": "CARD.GLIMPSE_BEYOND"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.BLIGHT_STRIKE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.DEATHS_DOOR"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 40,
+                "id": "CARD.GLIMPSE_BEYOND"
+              }
+            ],
+            "current_gold": 213,
+            "current_hp": 33,
+            "damage_taken": 22,
+            "gold_gained": 46,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 64,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "potion_choices": [
+              {
+                "choice": "POTION.POTION_OF_DOOM",
+                "was_picked": true
+              }
+            ],
+            "potion_used": [
+              "POTION.HEART_OF_IRON",
+              "POTION.GAMBLERS_BREW"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.RIPPLE_BASIN",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 40,
+                  "id": "CARD.MACHINE_LEARNING"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.TEMPEST"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.HOTFIX"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.MACHINE_LEARNING"
+              }
+            ],
+            "current_gold": 234,
+            "current_hp": 66,
+            "damage_taken": 2,
+            "gold_gained": 26,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 72,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "potion_choices": [
+              {
+                "choice": "POTION.FOCUS_POTION",
+                "was_picked": true
+              }
+            ],
+            "potion_discarded": [
+              "POTION.FOUL_POTION"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.VENERABLE_TEA_SET",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.MECHA_KNIGHT_ELITE",
+            "monster_ids": [
+              "MONSTER.MECHA_KNIGHT"
+            ],
+            "room_type": "elite",
+            "turns_taken": 8
+          }
+        ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "floor_added_to_deck": 41,
+                  "id": "CARD.PILLAR_OF_CREATION"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.SPOILS_OF_BATTLE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.HIDDEN_CACHE"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "current_upgrade_level": 1,
+                "floor_added_to_deck": 41,
+                "id": "CARD.PILLAR_OF_CREATION"
+              }
+            ],
+            "current_gold": 239,
+            "current_hp": 25,
+            "damage_taken": 12,
+            "gold_gained": 14,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 2,
+            "max_hp": 80,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.REAVE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.DEFILE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.FEAR"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 224,
+            "current_hp": 22,
+            "damage_taken": 12,
+            "gold_gained": 11,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 65,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062
+          },
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "enchantment": {
+                    "amount": 2,
+                    "id": "ENCHANTMENT.NIMBLE"
+                  },
+                  "floor_added_to_deck": 41,
+                  "id": "CARD.HOLOGRAM"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.BARRAGE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SWEEPING_BEAM"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 2,
+                  "id": "ENCHANTMENT.NIMBLE"
+                },
+                "id": "CARD.HOLOGRAM"
+              }
+            ],
+            "current_gold": 241,
+            "current_hp": 66,
+            "damage_taken": 0,
+            "gold_gained": 7,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 72,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.GLOBE_HEAD_NORMAL",
+            "monster_ids": [
+              "MONSTER.GLOBE_HEAD"
+            ],
+            "room_type": "monster",
+            "turns_taken": 3
+          }
+        ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "cards_gained": [
+              {
+                "id": "CARD.MAD_SCIENCE",
+                "props": {
+                  "ints": [
+                    {
+                      "name": "TinkerTimeType",
+                      "value": 2
+                    },
+                    {
+                      "name": "TinkerTimeRider",
+                      "value": 4
+                    }
+                  ]
+                }
+              }
+            ],
+            "current_gold": 239,
+            "current_hp": 25,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "TINKER_TIME.pages.INITIAL.options.CHOOSE_CARD_TYPE.title",
+                  "table": "events"
+                }
+              },
+              {
+                "title": {
+                  "key": "TINKER_TIME.pages.CHOOSE_CARD_TYPE.options.SKILL.title",
+                  "table": "events"
+                }
+              },
+              {
+                "title": {
+                  "key": "TINKER_TIME.pages.CHOOSE_RIDER.options.ENERGIZED.title",
+                  "table": "events"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 80,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931
+          },
+          {
+            "cards_gained": [
+              {
+                "id": "CARD.MAD_SCIENCE",
+                "props": {
+                  "ints": [
+                    {
+                      "name": "TinkerTimeType",
+                      "value": 3
+                    },
+                    {
+                      "name": "TinkerTimeRider",
+                      "value": 7
+                    }
+                  ]
+                }
+              }
+            ],
+            "current_gold": 239,
+            "current_hp": 22,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "TINKER_TIME.pages.INITIAL.options.CHOOSE_CARD_TYPE.title",
+                  "table": "events"
+                }
+              },
+              {
+                "title": {
+                  "key": "TINKER_TIME.pages.CHOOSE_CARD_TYPE.options.POWER.title",
+                  "table": "events"
+                }
+              },
+              {
+                "title": {
+                  "key": "TINKER_TIME.pages.CHOOSE_RIDER.options.EXPERTISE.title",
+                  "table": "events"
+                }
+              }
+            ],
+            "gold_gained": 15,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 65,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062
+          },
+          {
+            "cards_gained": [
+              {
+                "id": "CARD.MAD_SCIENCE",
+                "props": {
+                  "ints": [
+                    {
+                      "name": "TinkerTimeType",
+                      "value": 2
+                    },
+                    {
+                      "name": "TinkerTimeRider",
+                      "value": 5
+                    }
+                  ]
+                }
+              }
+            ],
+            "current_gold": 241,
+            "current_hp": 72,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "TINKER_TIME.pages.INITIAL.options.CHOOSE_CARD_TYPE.title",
+                  "table": "events"
+                },
+                "variables": {
+                  "ViolenceHits": {
+                    "type": "BaseDynamic",
+                    "decimal_value": 3,
+                    "bool_value": false,
+                    "string_value": null
+                  },
+                  "CuriousReduction": {
+                    "type": "BaseDynamic",
+                    "decimal_value": 1,
+                    "bool_value": false,
+                    "string_value": null
+                  }
+                }
+              },
+              {
+                "title": {
+                  "key": "TINKER_TIME.pages.CHOOSE_CARD_TYPE.options.SKILL.title",
+                  "table": "events"
+                },
+                "variables": {
+                  "ViolenceHits": {
+                    "type": "BaseDynamic",
+                    "decimal_value": 3,
+                    "bool_value": false,
+                    "string_value": null
+                  },
+                  "CuriousReduction": {
+                    "type": "BaseDynamic",
+                    "decimal_value": 1,
+                    "bool_value": false,
+                    "string_value": null
+                  }
+                }
+              },
+              {
+                "title": {
+                  "key": "TINKER_TIME.pages.CHOOSE_RIDER.options.WISDOM.title",
+                  "table": "events"
+                },
+                "variables": {
+                  "ViolenceHits": {
+                    "type": "BaseDynamic",
+                    "decimal_value": 3,
+                    "bool_value": false,
+                    "string_value": null
+                  },
+                  "CuriousReduction": {
+                    "type": "BaseDynamic",
+                    "decimal_value": 1,
+                    "bool_value": false,
+                    "string_value": null
+                  }
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 6,
+            "max_hp": 72,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.TINKER_TIME",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "shop",
+        "player_stats": [
+          {
+            "current_gold": 55,
+            "current_hp": 25,
+            "damage_taken": 0,
+            "gold_gained": 300,
+            "gold_lost": 484,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 80,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_choices": [
+              {
+                "choice": "POTION.GAMBLERS_BREW",
+                "was_picked": true
+              },
+              {
+                "choice": "POTION.SWIFT_POTION",
+                "was_picked": true
+              },
+              {
+                "choice": "POTION.SHIP_IN_A_BOTTLE",
+                "was_picked": true
+              }
+            ],
+            "potion_used": [
+              "POTION.FOUL_POTION",
+              "POTION.FOUL_POTION",
+              "POTION.FOUL_POTION"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.LUNAR_PASTRY",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "cards_removed": [
+              {
+                "floor_added_to_deck": 16,
+                "id": "CARD.SENTRY_MODE"
+              }
+            ],
+            "current_gold": 18,
+            "current_hp": 22,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 96,
+            "gold_spent": 125,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 65,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "potion_choices": [
+              {
+                "choice": "POTION.BEETLE_JUICE",
+                "was_picked": true
+              }
+            ]
+          },
+          {
+            "bought_relics": [
+              "RELIC.GOLD_PLATED_CABLES"
+            ],
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.COMPILE_DRIVER"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "enchantment": {
+                    "amount": 2,
+                    "id": "ENCHANTMENT.NIMBLE"
+                  },
+                  "id": "CARD.LIGHTNING_ROD"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.TEMPEST"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.ULTIMATE_STRIKE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SECRET_WEAPON"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.SUBROUTINE"
+              },
+              {
+                "id": "CARD.GO_FOR_THE_EYES"
+              }
+            ],
+            "current_gold": 6,
+            "current_hp": 72,
+            "damage_taken": 0,
+            "gold_gained": 100,
+            "gold_lost": 0,
+            "gold_spent": 335,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 72,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "potion_choices": [
+              {
+                "choice": "POTION.MAZALETHS_GIFT",
+                "was_picked": false
+              },
+              {
+                "choice": "POTION.DUPLICATOR",
+                "was_picked": false
+              },
+              {
+                "choice": "POTION.FLEX_POTION",
+                "was_picked": false
+              }
+            ],
+            "potion_used": [
+              "POTION.FOUL_POTION"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.GOLD_PLATED_CABLES",
+                "was_picked": true
+              },
+              {
+                "choice": "RELIC.RIPPLE_BASIN",
+                "was_picked": false
+              },
+              {
+                "choice": "RELIC.KIFUDA",
+                "was_picked": false
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "shop",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 55,
+            "current_hp": 70,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 45,
+            "max_hp": 80,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "rest_site_choices": [
+              "HEAL"
+            ]
+          },
+          {
+            "current_gold": 18,
+            "current_hp": 41,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 19,
+            "max_hp": 65,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "rest_site_choices": [
+              "HEAL"
+            ]
+          },
+          {
+            "current_gold": 6,
+            "current_hp": 72,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 72,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.GO_FOR_THE_EYES"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "boss",
+        "player_stats": [
+          {
+            "current_gold": 55,
+            "current_hp": 70,
+            "damage_taken": 2,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 2,
+            "max_hp": 80,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561198218717931,
+            "potion_used": [
+              "POTION.SWIFT_POTION",
+              "POTION.SHIP_IN_A_BOTTLE",
+              "POTION.GAMBLERS_BREW"
+            ]
+          },
+          {
+            "current_gold": 18,
+            "current_hp": 66,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 25,
+            "max_hp": 66,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 76561198056455062,
+            "potion_used": [
+              "POTION.BEETLE_JUICE",
+              "POTION.POTION_OF_DOOM"
+            ]
+          },
+          {
+            "current_gold": 6,
+            "current_hp": 72,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 72,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 76561197999477537,
+            "potion_used": [
+              "POTION.FOCUS_POTION"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.TEST_SUBJECT_BOSS",
+            "monster_ids": [
+              "MONSTER.TEST_SUBJECT"
+            ],
+            "room_type": "boss",
+            "turns_taken": 8
+          }
+        ]
+      }
+    ]
+  ],
+  "modifiers": [],
+  "platform_type": "steam",
+  "players": [
+    {
+      "character": "CHARACTER.REGENT",
+      "deck": [
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.STRIKE_REGENT"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.STRIKE_REGENT"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.DEFEND_REGENT"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.DEFEND_REGENT"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.DEFEND_REGENT"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.DEFEND_REGENT"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.FALLING_STAR"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.VENERATE"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.ASCENDERS_BANE"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 2,
+          "id": "CARD.SOLAR_STRIKE"
+        },
+        {
+          "floor_added_to_deck": 3,
+          "id": "CARD.BLACK_HOLE"
+        },
+        {
+          "floor_added_to_deck": 5,
+          "id": "CARD.GUIDING_STAR"
+        },
+        {
+          "floor_added_to_deck": 6,
+          "id": "CARD.COSMIC_INDIFFERENCE"
+        },
+        {
+          "floor_added_to_deck": 8,
+          "id": "CARD.GLITTERSTREAM"
+        },
+        {
+          "floor_added_to_deck": 11,
+          "id": "CARD.I_AM_INVINCIBLE"
+        },
+        {
+          "floor_added_to_deck": 13,
+          "id": "CARD.CHILD_OF_THE_STARS"
+        },
+        {
+          "floor_added_to_deck": 14,
+          "id": "CARD.GUARDS"
+        },
+        {
+          "floor_added_to_deck": 16,
+          "id": "CARD.GENESIS"
+        },
+        {
+          "floor_added_to_deck": 18,
+          "id": "CARD.PRODUCTION"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 18,
+          "id": "CARD.SPECTRUM_SHIFT"
+        },
+        {
+          "floor_added_to_deck": 19,
+          "id": "CARD.SUPERMASSIVE"
+        },
+        {
+          "floor_added_to_deck": 20,
+          "id": "CARD.CELESTIAL_MIGHT"
+        },
+        {
+          "floor_added_to_deck": 20,
+          "id": "CARD.ASTRAL_PULSE"
+        },
+        {
+          "floor_added_to_deck": 21,
+          "id": "CARD.CHILD_OF_THE_STARS"
+        },
+        {
+          "floor_added_to_deck": 22,
+          "id": "CARD.BLACK_HOLE"
+        },
+        {
+          "floor_added_to_deck": 23,
+          "id": "CARD.GUIDING_STAR"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 25,
+          "id": "CARD.ARSENAL"
+        },
+        {
+          "floor_added_to_deck": 27,
+          "id": "CARD.KNOW_THY_PLACE"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 28,
+          "id": "CARD.CELESTIAL_MIGHT"
+        },
+        {
+          "floor_added_to_deck": 31,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "floor_added_to_deck": 33,
+          "id": "CARD.GLIMMER"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 36,
+          "id": "CARD.SPECTRUM_SHIFT"
+        },
+        {
+          "floor_added_to_deck": 40,
+          "id": "CARD.DYING_STAR"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 41,
+          "id": "CARD.PILLAR_OF_CREATION"
+        },
+        {
+          "floor_added_to_deck": 42,
+          "id": "CARD.MAD_SCIENCE",
+          "props": {
+            "ints": [
+              {
+                "name": "TinkerTimeType",
+                "value": 2
+              },
+              {
+                "name": "TinkerTimeRider",
+                "value": 4
+              }
+            ]
+          }
+        }
+      ],
+      "id": 76561198218717931,
+      "max_potion_slot_count": 4,
+      "potions": [],
+      "relics": [
+        {
+          "floor_added_to_deck": 1,
+          "id": "RELIC.DIVINE_RIGHT"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "RELIC.LEAD_PAPERWEIGHT"
+        },
+        {
+          "floor_added_to_deck": 9,
+          "id": "RELIC.LANTERN"
+        },
+        {
+          "floor_added_to_deck": 27,
+          "id": "RELIC.SWORD_OF_JADE"
+        },
+        {
+          "floor_added_to_deck": 11,
+          "id": "RELIC.FENCING_MANUAL"
+        },
+        {
+          "floor_added_to_deck": 14,
+          "id": "RELIC.BLOOD_VIAL"
+        },
+        {
+          "floor_added_to_deck": 17,
+          "id": "RELIC.PAELS_TEARS"
+        },
+        {
+          "floor_added_to_deck": 22,
+          "id": "RELIC.POTION_BELT"
+        },
+        {
+          "floor_added_to_deck": 24,
+          "id": "RELIC.GAME_PIECE"
+        },
+        {
+          "floor_added_to_deck": 25,
+          "id": "RELIC.RED_MASK"
+        },
+        {
+          "floor_added_to_deck": 27,
+          "id": "RELIC.AKABEKO"
+        },
+        {
+          "floor_added_to_deck": 32,
+          "id": "RELIC.JEWELED_MASK"
+        },
+        {
+          "floor_added_to_deck": 38,
+          "id": "RELIC.ETERNAL_FEATHER"
+        },
+        {
+          "floor_added_to_deck": 40,
+          "id": "RELIC.CANDELABRA"
+        },
+        {
+          "floor_added_to_deck": 43,
+          "id": "RELIC.LUNAR_PASTRY"
+        }
+      ]
+    },
+    {
+      "character": "CHARACTER.NECROBINDER",
+      "deck": [
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.STRIKE_NECROBINDER"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.DEFEND_NECROBINDER"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.DEFEND_NECROBINDER"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.DEFEND_NECROBINDER"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.BODYGUARD"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.UNLEASH"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.ASCENDERS_BANE"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.BLIGHT_STRIKE"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.HIGH_FIVE"
+        },
+        {
+          "floor_added_to_deck": 2,
+          "id": "CARD.MELANCHOLY"
+        },
+        {
+          "floor_added_to_deck": 3,
+          "id": "CARD.WISP"
+        },
+        {
+          "floor_added_to_deck": 5,
+          "id": "CARD.FETCH"
+        },
+        {
+          "floor_added_to_deck": 8,
+          "id": "CARD.TRANSFIGURE"
+        },
+        {
+          "floor_added_to_deck": 11,
+          "id": "CARD.INVOKE"
+        },
+        {
+          "floor_added_to_deck": 13,
+          "id": "CARD.DEATHBRINGER"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 13,
+          "id": "CARD.DANSE_MACABRE"
+        },
+        {
+          "enchantment": {
+            "amount": 5,
+            "id": "ENCHANTMENT.MOMENTUM"
+          },
+          "floor_added_to_deck": 14,
+          "id": "CARD.ERADICATE"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 18,
+          "id": "CARD.PARSE"
+        },
+        {
+          "floor_added_to_deck": 18,
+          "id": "CARD.DEATHS_DOOR"
+        },
+        {
+          "floor_added_to_deck": 19,
+          "id": "CARD.GRAVE_WARDEN"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 22,
+          "id": "CARD.GRAVEBLAST"
+        },
+        {
+          "floor_added_to_deck": 25,
+          "id": "CARD.SPUR"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 28,
+          "id": "CARD.BORROWED_TIME"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 29,
+          "id": "CARD.DEMESNE"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 31,
+          "id": "CARD.DEMESNE"
+        },
+        {
+          "floor_added_to_deck": 40,
+          "id": "CARD.GLIMPSE_BEYOND"
+        },
+        {
+          "floor_added_to_deck": 42,
+          "id": "CARD.MAD_SCIENCE",
+          "props": {
+            "ints": [
+              {
+                "name": "TinkerTimeType",
+                "value": 3
+              },
+              {
+                "name": "TinkerTimeRider",
+                "value": 7
+              }
+            ]
+          }
+        }
+      ],
+      "id": 76561198056455062,
+      "max_potion_slot_count": 2,
+      "potions": [],
+      "relics": [
+        {
+          "floor_added_to_deck": 1,
+          "id": "RELIC.BOUND_PHYLACTERY"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "RELIC.LEAFY_POULTICE"
+        },
+        {
+          "floor_added_to_deck": 9,
+          "id": "RELIC.RAZOR_TOOTH"
+        },
+        {
+          "floor_added_to_deck": 11,
+          "id": "RELIC.STRIKE_DUMMY"
+        },
+        {
+          "floor_added_to_deck": 14,
+          "id": "RELIC.LUCKY_FYSH"
+        },
+        {
+          "floor_added_to_deck": 17,
+          "id": "RELIC.PAELS_FLESH"
+        },
+        {
+          "floor_added_to_deck": 20,
+          "id": "RELIC.CHOSEN_CHEESE"
+        },
+        {
+          "floor_added_to_deck": 21,
+          "id": "RELIC.PUNCH_DAGGER"
+        },
+        {
+          "floor_added_to_deck": 22,
+          "id": "RELIC.GORGET"
+        },
+        {
+          "floor_added_to_deck": 24,
+          "id": "RELIC.PANTOGRAPH"
+        },
+        {
+          "floor_added_to_deck": 25,
+          "id": "RELIC.BAG_OF_MARBLES"
+        },
+        {
+          "floor_added_to_deck": 27,
+          "id": "RELIC.UNSETTLING_LAMP"
+        },
+        {
+          "floor_added_to_deck": 32,
+          "id": "RELIC.JEWELED_MASK"
+        },
+        {
+          "floor_added_to_deck": 38,
+          "id": "RELIC.CENTENNIAL_PUZZLE"
+        },
+        {
+          "floor_added_to_deck": 40,
+          "id": "RELIC.RIPPLE_BASIN"
+        }
+      ]
+    },
+    {
+      "character": "CHARACTER.DEFECT",
+      "deck": [
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.STRIKE_DEFECT"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.STRIKE_DEFECT"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.DEFEND_DEFECT"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.DEFEND_DEFECT"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.DEFEND_DEFECT"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.DEFEND_DEFECT"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 1,
+          "id": "CARD.ZAP"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.DUALCAST"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.ASCENDERS_BANE"
+        },
+        {
+          "floor_added_to_deck": 2,
+          "id": "CARD.SWEEPING_BEAM"
+        },
+        {
+          "floor_added_to_deck": 3,
+          "id": "CARD.FOCUSED_STRIKE"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 6,
+          "id": "CARD.CAPACITOR"
+        },
+        {
+          "floor_added_to_deck": 11,
+          "id": "CARD.CONSUMING_SHADOW"
+        },
+        {
+          "enchantment": {
+            "amount": 2,
+            "id": "ENCHANTMENT.NIMBLE"
+          },
+          "floor_added_to_deck": 13,
+          "id": "CARD.LIGHTNING_ROD"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 2,
+            "id": "ENCHANTMENT.NIMBLE"
+          },
+          "floor_added_to_deck": 13,
+          "id": "CARD.HOLOGRAM"
+        },
+        {
+          "floor_added_to_deck": 14,
+          "id": "CARD.COLD_SNAP"
+        },
+        {
+          "floor_added_to_deck": 16,
+          "id": "CARD.SUPERCRITICAL"
+        },
+        {
+          "floor_added_to_deck": 18,
+          "id": "CARD.REFRACT"
+        },
+        {
+          "floor_added_to_deck": 18,
+          "id": "CARD.FTL"
+        },
+        {
+          "enchantment": {
+            "amount": 2,
+            "id": "ENCHANTMENT.NIMBLE"
+          },
+          "floor_added_to_deck": 19,
+          "id": "CARD.BOOST_AWAY"
+        },
+        {
+          "enchantment": {
+            "amount": 2,
+            "id": "ENCHANTMENT.NIMBLE"
+          },
+          "floor_added_to_deck": 20,
+          "id": "CARD.CHARGE_BATTERY"
+        },
+        {
+          "floor_added_to_deck": 20,
+          "id": "CARD.COMPILE_DRIVER"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 21,
+          "id": "CARD.LOOP"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 2,
+            "id": "ENCHANTMENT.NIMBLE"
+          },
+          "floor_added_to_deck": 22,
+          "id": "CARD.COMPACT"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 23,
+          "id": "CARD.BARRAGE"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 25,
+          "id": "CARD.TRASH_TO_TREASURE"
+        },
+        {
+          "floor_added_to_deck": 27,
+          "id": "CARD.GUNK_UP"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 28,
+          "id": "CARD.HOTFIX"
+        },
+        {
+          "floor_added_to_deck": 29,
+          "id": "CARD.SHOCKWAVE"
+        },
+        {
+          "floor_added_to_deck": 29,
+          "id": "CARD.COOLHEADED"
+        },
+        {
+          "floor_added_to_deck": 31,
+          "id": "CARD.FLAK_CANNON"
+        },
+        {
+          "floor_added_to_deck": 33,
+          "id": "CARD.TURBO"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 34,
+          "id": "CARD.BULK_UP"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 36,
+          "id": "CARD.SKIM"
+        },
+        {
+          "floor_added_to_deck": 40,
+          "id": "CARD.MACHINE_LEARNING"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 2,
+            "id": "ENCHANTMENT.NIMBLE"
+          },
+          "floor_added_to_deck": 41,
+          "id": "CARD.HOLOGRAM"
+        },
+        {
+          "enchantment": {
+            "amount": 2,
+            "id": "ENCHANTMENT.NIMBLE"
+          },
+          "floor_added_to_deck": 42,
+          "id": "CARD.MAD_SCIENCE",
+          "props": {
+            "ints": [
+              {
+                "name": "TinkerTimeType",
+                "value": 2
+              },
+              {
+                "name": "TinkerTimeRider",
+                "value": 5
+              }
+            ]
+          }
+        },
+        {
+          "floor_added_to_deck": 43,
+          "id": "CARD.SUBROUTINE"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 43,
+          "id": "CARD.GO_FOR_THE_EYES"
+        }
+      ],
+      "id": 76561197999477537,
+      "max_potion_slot_count": 2,
+      "potions": [],
+      "relics": [
+        {
+          "floor_added_to_deck": 1,
+          "id": "RELIC.CRACKED_CORE"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "RELIC.LAVA_ROCK",
+          "props": {
+            "bools": [
+              {
+                "name": "HasTriggered",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "floor_added_to_deck": 4,
+          "id": "RELIC.FRESNEL_LENS"
+        },
+        {
+          "floor_added_to_deck": 9,
+          "id": "RELIC.STURDY_CLAMP"
+        },
+        {
+          "floor_added_to_deck": 27,
+          "id": "RELIC.SWORD_OF_JADE"
+        },
+        {
+          "floor_added_to_deck": 11,
+          "id": "RELIC.BOOK_OF_FIVE_RINGS",
+          "props": {
+            "ints": [
+              {
+                "name": "CardsAdded",
+                "value": 27
+              }
+            ]
+          }
+        },
+        {
+          "floor_added_to_deck": 14,
+          "id": "RELIC.KUSARIGAMA"
+        },
+        {
+          "floor_added_to_deck": 16,
+          "id": "RELIC.HAPPY_FLOWER",
+          "props": {
+            "ints": [
+              {
+                "name": "TurnsSeen",
+                "value": 1
+              }
+            ]
+          }
+        },
+        {
+          "floor_added_to_deck": 16,
+          "id": "RELIC.NUNCHAKU",
+          "props": {
+            "ints": [
+              {
+                "name": "AttacksPlayed",
+                "value": 144
+              }
+            ]
+          }
+        },
+        {
+          "floor_added_to_deck": 17,
+          "id": "RELIC.PAELS_LEGION",
+          "props": {
+            "strings": [
+              {
+                "name": "Skin",
+                "value": "eyes"
+              }
+            ]
+          }
+        },
+        {
+          "floor_added_to_deck": 22,
+          "id": "RELIC.ANCHOR"
+        },
+        {
+          "floor_added_to_deck": 24,
+          "id": "RELIC.BAG_OF_PREPARATION"
+        },
+        {
+          "floor_added_to_deck": 25,
+          "id": "RELIC.BRONZE_SCALES"
+        },
+        {
+          "floor_added_to_deck": 27,
+          "id": "RELIC.TUNING_FORK",
+          "props": {
+            "ints": [
+              {
+                "name": "SkillsPlayed",
+                "value": 1
+              }
+            ]
+          }
+        },
+        {
+          "floor_added_to_deck": 32,
+          "id": "RELIC.CHOICES_PARADOX"
+        },
+        {
+          "floor_added_to_deck": 38,
+          "id": "RELIC.STRAWBERRY"
+        },
+        {
+          "floor_added_to_deck": 40,
+          "id": "RELIC.VENERABLE_TEA_SET",
+          "props": {
+            "bools": [
+              {
+                "name": "GainEnergyInNextCombat",
+                "value": false
+              }
+            ]
+          }
+        },
+        {
+          "floor_added_to_deck": 43,
+          "id": "RELIC.GOLD_PLATED_CABLES"
+        }
+      ]
+    }
+  ],
+  "run_time": 7248,
+  "schema_version": 8,
+  "seed": "6FPA57AFVX",
+  "start_time": 1774385128,
+  "was_abandoned": false,
+  "win": true
+}
