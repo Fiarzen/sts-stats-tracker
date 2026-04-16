@@ -122,7 +122,7 @@ if __name__ == "__main__":
         print("Usage: python test_pipeline.py <path/to/file.run>")
         sys.exit(1)
 
-    path = Path(sys.argv[1])
+    path = Path(sys.argv[1])    
     if not path.exists():
         print(f"Error: file not found: {path}")
         sys.exit(1)
