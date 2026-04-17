@@ -132,8 +132,10 @@ These filters are set low by default so the tool produces output immediately, ev
 
 ## To run
 
-cd backend
-uvicorn main:app --reload --port 8000
-then open http://localhost:8000
+- cd backend
+
+- uvicorn main:app --reload --port 8000
+
+- then open http://localhost:8000
 
 ---
