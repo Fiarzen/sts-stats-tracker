@@ -2,11 +2,7 @@
 
 A tool for parsing and analysing run data from Slay the Spire 2. Reads the `.run` files produced by the game and computes statistics across multiple runs, including card pick rates, relic win rates, and encounter difficulty.
 
----
 
-## Project Status
-
-Early development. The parser and stats engine are complete and tested. The FastAPI backend and web frontend are planned but not yet implemented.
 
 ---
 
