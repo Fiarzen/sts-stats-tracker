@@ -2,8 +2,6 @@
 
 A tool for parsing and analysing run data from Slay the Spire 2. Reads the `.run` files produced by the game and computes statistics across multiple runs, including card pick rates, relic win rates, and encounter difficulty.
 
-
-
 ---
 
 ## Requirements
@@ -117,13 +115,6 @@ filtered = filter_runs(runs, f)
 card_stats = compute_card_stats(filtered, min_offers=5)
 ```
 
-Split upgraded cards into separate entries:
-
-```python
-card_stats = compute_card_stats(runs, split_upgrades=True)
-# RAGE and RAGE+ will appear as separate rows
-```
-
 ---
 
 ## Notes on Sample Size
@@ -138,10 +129,11 @@ As a rough guide:
 These filters are set low by default so the tool produces output immediately, even with a single run.
 
 ---
+
 ## To run
+
 cd backend
 uvicorn main:app --reload --port 8000
-# then open http://localhost:8000
+then open http://localhost:8000
 
 ---
-
