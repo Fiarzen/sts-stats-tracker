@@ -142,13 +142,10 @@ As a rough guide:
 These filters are set low by default so the tool produces output immediately, even with a single run.
 
 ---
-
-## Planned Features
-
-- FastAPI backend exposing stats as JSON endpoints
-- Web frontend with Chart.js visualisations for cards, relics, and encounters
-- Drag-and-drop run file upload via the browser
-- Filtering by character, ascension level, and act in the UI
+## To run
+cd backend
+uvicorn main:app --reload --port 8000
+# then open http://localhost:8000
 
 ---
 
