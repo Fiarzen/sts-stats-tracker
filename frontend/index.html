@@ -727,73 +727,73 @@
     <!-- /app -->
 
     <script>
-          // ── Config ───────────────────────────────────────────────────────
-          const API = "/api";
+      // ── Config ───────────────────────────────────────────────────────
+      const API = "/api";
 
-          const CHART_DEFAULTS = {
-            color: "#d4cfc4",
-            font: { family: "'Share Tech Mono', monospace", size: 11 },
-          };
-          Chart.defaults.color = CHART_DEFAULTS.color;
-          Chart.defaults.font = CHART_DEFAULTS.font;
+      const CHART_DEFAULTS = {
+        color: "#d4cfc4",
+        font: { family: "'Share Tech Mono', monospace", size: 11 },
+      };
+      Chart.defaults.color = CHART_DEFAULTS.color;
+      Chart.defaults.font = CHART_DEFAULTS.font;
 
-          // ── State ────────────────────────────────────────────────────────
-          let charts = {};
+      // ── State ────────────────────────────────────────────────────────
+      let charts = {};
 
-          function getFilters() {
-            return {
-              character: document.getElementById("filter-char").value || null,
-              min_ascension:
-                document.getElementById("filter-asc-min").value || null,
-              max_ascension:
-                document.getElementById("filter-asc-max").value || null,
-              win_only: document.getElementById("filter-win-only").checked,
-            };
-          }
+      function getFilters() {
+        return {
+          character: document.getElementById("filter-char").value || null,
+          min_ascension:
+            document.getElementById("filter-asc-min").value || null,
+          max_ascension:
+            document.getElementById("filter-asc-max").value || null,
+          win_only: document.getElementById("filter-win-only").checked,
+        };
+      }
 
-          function buildQuery(extra = {}) {
-            const f = { ...getFilters(), ...extra };
-            const p = new URLSearchParams();
-            for (const [k, v] of Object.entries(f)) {
-              if (v !== null && v !== "" && v !== false) p.set(k, v);
-              if (v === true) p.set(k, "true");
-            }
-            return p.toString() ? "?" + p.toString() : "";
-          }
+      function buildQuery(extra = {}) {
+        const f = { ...getFilters(), ...extra };
+        const p = new URLSearchParams();
+        for (const [k, v] of Object.entries(f)) {
+          if (v !== null && v !== "" && v !== false) p.set(k, v);
+          if (v === true) p.set(k, "true");
+        }
+        return p.toString() ? "?" + p.toString() : "";
+      }
 
-          async function apiFetch(path) {
-            const res = await fetch(API + path);
-            if (!res.ok) throw new Error(await res.text());
-            return res.json();
-          }
+      async function apiFetch(path) {
+        const res = await fetch(API + path);
+        if (!res.ok) throw new Error(await res.text());
+        return res.json();
+      }
 
-          // ── Chart helpers ────────────────────────────────────────────────
-          function destroyChart(id) {
-            if (charts[id]) {
-              charts[id].destroy();
-              delete charts[id];
-            }
-          }
+      // ── Chart helpers ────────────────────────────────────────────────
+      function destroyChart(id) {
+        if (charts[id]) {
+          charts[id].destroy();
+          delete charts[id];
+        }
+      }
 
-          function pct(v) {
-            return (v * 100).toFixed(1) + "%";
-          }
+      function pct(v) {
+        return (v * 100).toFixed(1) + "%";
+      }
 
-          function barColor(v) {
-            if (v >= 0.7) return "#4caf7d";
-            if (v >= 0.4) return "#c9a84c";
-            return "#c94c4c";
-          }
+      function barColor(v) {
+        if (v >= 0.7) return "#4caf7d";
+        if (v >= 0.4) return "#c9a84c";
+        return "#c94c4c";
+      }
 
-          // ── Overview ─────────────────────────────────────────────────────
-          async function loadOverview() {
-            const summary = await apiFetch("/summary" + buildQuery());
-            const grid = document.getElementById("summary-grid");
+      // ── Overview ─────────────────────────────────────────────────────
+      async function loadOverview() {
+        const summary = await apiFetch("/summary" + buildQuery());
+        const grid = document.getElementById("summary-grid");
 
-            const m = Math.floor(summary.avg_run_time_seconds / 60);
-            const s = summary.avg_run_time_seconds % 60;
+        const m = Math.floor(summary.avg_run_time_seconds / 60);
+        const s = summary.avg_run_time_seconds % 60;
 
-            grid.innerHTML = `
+        grid.innerHTML = `
         <div class="stat-card">
           <div class="label">Total Runs</div>
           <div class="value">${summary.total_runs}</div>
@@ -813,109 +813,109 @@
         </div>
       `;
 
-            const chars = Object.keys(summary.runs_per_character);
-            const runCnts = chars.map((c) => summary.runs_per_character[c]);
-            const winRates = chars.map((c) => {
-              const w = summary.wins_per_character[c] || 0;
-              const t = summary.runs_per_character[c] || 1;
-              return +((w / t) * 100).toFixed(1);
-            });
+        const chars = Object.keys(summary.runs_per_character);
+        const runCnts = chars.map((c) => summary.runs_per_character[c]);
+        const winRates = chars.map((c) => {
+          const w = summary.wins_per_character[c] || 0;
+          const t = summary.runs_per_character[c] || 1;
+          return +((w / t) * 100).toFixed(1);
+        });
 
-            destroyChart("char-runs");
-            destroyChart("char-winrate");
+        destroyChart("char-runs");
+        destroyChart("char-winrate");
 
-            const barOpts = (label, data, colors) => ({
-              type: "bar",
-              data: {
-                labels: chars,
-                datasets: [
-                  { label, data, backgroundColor: colors, borderRadius: 3 },
-                ],
-              },
-              options: {
-                responsive: true,
-                plugins: { legend: { display: false } },
-                scales: {
-                  x: { grid: { color: "#2a2a3a" }, ticks: { color: "#6b6660" } },
-                  y: { grid: { color: "#2a2a3a" }, ticks: { color: "#6b6660" } },
+        const barOpts = (label, data, colors) => ({
+          type: "bar",
+          data: {
+            labels: chars,
+            datasets: [
+              { label, data, backgroundColor: colors, borderRadius: 3 },
+            ],
+          },
+          options: {
+            responsive: true,
+            plugins: { legend: { display: false } },
+            scales: {
+              x: { grid: { color: "#2a2a3a" }, ticks: { color: "#6b6660" } },
+              y: { grid: { color: "#2a2a3a" }, ticks: { color: "#6b6660" } },
+            },
+          },
+        });
+
+        charts["char-runs"] = new Chart(
+          document.getElementById("char-runs-chart"),
+          barOpts("Runs", runCnts, "#4c7ac9"),
+        );
+        charts["char-winrate"] = new Chart(
+          document.getElementById("char-winrate-chart"),
+          barOpts(
+            "Win %",
+            winRates,
+            winRates.map((v) => barColor(v / 100)),
+          ),
+        );
+      }
+
+      // ── Cards ────────────────────────────────────────────────────────
+      async function loadCards() {
+        const minOffers =
+          document.getElementById("cards-min-offers").value || 1;
+        const sortBy = document.getElementById("cards-sort").value;
+        const q = buildQuery({ min_offers: minOffers, sort_by: sortBy });
+        const data = await apiFetch("/cards" + q);
+
+        const top = data.slice(0, 20);
+
+        destroyChart("cards");
+        if (top.length) {
+          charts["cards"] = new Chart(document.getElementById("cards-chart"), {
+            type: "bar",
+            data: {
+              labels: top.map((d) => d.card_id),
+              datasets: [
+                {
+                  label: "Win Rate",
+                  data: top.map((d) => +(d.win_rate * 100).toFixed(1)),
+                  backgroundColor: top.map((d) => barColor(d.win_rate)),
+                  borderRadius: 3,
+                  yAxisID: "y",
                 },
-              },
-            });
-
-            charts["char-runs"] = new Chart(
-              document.getElementById("char-runs-chart"),
-              barOpts("Runs", runCnts, "#4c7ac9"),
-            );
-            charts["char-winrate"] = new Chart(
-              document.getElementById("char-winrate-chart"),
-              barOpts(
-                "Win %",
-                winRates,
-                winRates.map((v) => barColor(v / 100)),
-              ),
-            );
-          }
-
-          // ── Cards ────────────────────────────────────────────────────────
-          async function loadCards() {
-            const minOffers =
-              document.getElementById("cards-min-offers").value || 1;
-            const sortBy = document.getElementById("cards-sort").value;
-            const q = buildQuery({ min_offers: minOffers, sort_by: sortBy });
-            const data = await apiFetch("/cards" + q);
-
-            const top = data.slice(0, 20);
-
-            destroyChart("cards");
-            if (top.length) {
-              charts["cards"] = new Chart(document.getElementById("cards-chart"), {
-                type: "bar",
-                data: {
-                  labels: top.map((d) => d.card_id),
-                  datasets: [
-                    {
-                      label: "Win Rate",
-                      data: top.map((d) => +(d.win_rate * 100).toFixed(1)),
-                      backgroundColor: top.map((d) => barColor(d.win_rate)),
-                      borderRadius: 3,
-                      yAxisID: "y",
-                    },
-                    {
-                      label: "Pick Rate",
-                      data: top.map((d) => +(d.pick_rate * 100).toFixed(1)),
-                      backgroundColor: "rgba(76,122,201,0.5)",
-                      borderRadius: 3,
-                      yAxisID: "y",
-                    },
-                  ],
+                {
+                  label: "Pick Rate",
+                  data: top.map((d) => +(d.pick_rate * 100).toFixed(1)),
+                  backgroundColor: "rgba(76,122,201,0.5)",
+                  borderRadius: 3,
+                  yAxisID: "y",
                 },
-                options: {
-                  indexAxis: "y",
-                  responsive: true,
-                  plugins: {
-                    legend: { labels: { color: "#d4cfc4" } },
-                    tooltip: {
-                      callbacks: {
-                        label: (ctx) => ` ${ctx.dataset.label}: ${ctx.raw}%`,
-                      },
-                    },
-                  },
-                  scales: {
-                    x: {
-                      grid: { color: "#2a2a3a" },
-                      ticks: { color: "#6b6660", callback: (v) => v + "%" },
-                    },
-                    y: { grid: { color: "#1a1a24" }, ticks: { color: "#d4cfc4" } },
+              ],
+            },
+            options: {
+              indexAxis: "y",
+              responsive: true,
+              plugins: {
+                legend: { labels: { color: "#d4cfc4" } },
+                tooltip: {
+                  callbacks: {
+                    label: (ctx) => ` ${ctx.dataset.label}: ${ctx.raw}%`,
                   },
                 },
-              });
-            }
+              },
+              scales: {
+                x: {
+                  grid: { color: "#2a2a3a" },
+                  ticks: { color: "#6b6660", callback: (v) => v + "%" },
+                },
+                y: { grid: { color: "#1a1a24" }, ticks: { color: "#d4cfc4" } },
+              },
+            },
+          });
+        }
 
-            const tbody = document.querySelector("#cards-table tbody");
-            tbody.innerHTML = data.length
-              ? data
-                  .map(
-                    (d) => `
+        const tbody = document.querySelector("#cards-table tbody");
+        tbody.innerHTML = data.length
+          ? data
+              .map(
+                (d) => `
         <tr>
           <td class="name">${d.card_id}</td>
           <td class="num">${d.times_offered}</td>
@@ -925,68 +925,68 @@
           <td class="rate">${miniBar(d.win_rate, d.win_rate >= 0.6 ? "green" : d.win_rate >= 0.4 ? "gold" : "red")}</td>
         </tr>
       `,
-                  )
-                  .join("")
-              : emptyRow(6);
-          }
+              )
+              .join("")
+          : emptyRow(6);
+      }
 
-          // ── Relics ───────────────────────────────────────────────────────
-          async function loadRelics() {
-            const minSeen = document.getElementById("relics-min-seen").value || 1;
-            const sortBy = document.getElementById("relics-sort").value;
-            const q = buildQuery({ min_seen: minSeen, sort_by: sortBy });
-            const data = await apiFetch("/relics" + q);
+      // ── Relics ───────────────────────────────────────────────────────
+      async function loadRelics() {
+        const minSeen = document.getElementById("relics-min-seen").value || 1;
+        const sortBy = document.getElementById("relics-sort").value;
+        const q = buildQuery({ min_seen: minSeen, sort_by: sortBy });
+        const data = await apiFetch("/relics" + q);
 
-            const top = data.slice(0, 20);
+        const top = data.slice(0, 20);
 
-            destroyChart("relics");
-            if (top.length) {
-              charts["relics"] = new Chart(
-                document.getElementById("relics-chart"),
-                {
-                  type: "bar",
-                  data: {
-                    labels: top.map((d) => d.relic_id),
-                    datasets: [
-                      {
-                        label: "Win Rate",
-                        data: top.map((d) => +(d.win_rate * 100).toFixed(1)),
-                        backgroundColor: top.map((d) => barColor(d.win_rate)),
-                        borderRadius: 3,
-                      },
-                    ],
+        destroyChart("relics");
+        if (top.length) {
+          charts["relics"] = new Chart(
+            document.getElementById("relics-chart"),
+            {
+              type: "bar",
+              data: {
+                labels: top.map((d) => d.relic_id),
+                datasets: [
+                  {
+                    label: "Win Rate",
+                    data: top.map((d) => +(d.win_rate * 100).toFixed(1)),
+                    backgroundColor: top.map((d) => barColor(d.win_rate)),
+                    borderRadius: 3,
                   },
-                  options: {
-                    indexAxis: "y",
-                    responsive: true,
-                    plugins: {
-                      legend: { display: false },
-                      tooltip: {
-                        callbacks: { label: (ctx) => ` Win Rate: ${ctx.raw}%` },
-                      },
-                    },
-                    scales: {
-                      x: {
-                        min: 0,
-                        max: 100,
-                        grid: { color: "#2a2a3a" },
-                        ticks: { color: "#6b6660", callback: (v) => v + "%" },
-                      },
-                      y: {
-                        grid: { color: "#1a1a24" },
-                        ticks: { color: "#d4cfc4" },
-                      },
-                    },
+                ],
+              },
+              options: {
+                indexAxis: "y",
+                responsive: true,
+                plugins: {
+                  legend: { display: false },
+                  tooltip: {
+                    callbacks: { label: (ctx) => ` Win Rate: ${ctx.raw}%` },
                   },
                 },
-              );
-            }
+                scales: {
+                  x: {
+                    min: 0,
+                    max: 100,
+                    grid: { color: "#2a2a3a" },
+                    ticks: { color: "#6b6660", callback: (v) => v + "%" },
+                  },
+                  y: {
+                    grid: { color: "#1a1a24" },
+                    ticks: { color: "#d4cfc4" },
+                  },
+                },
+              },
+            },
+          );
+        }
 
-            const tbody = document.querySelector("#relics-table tbody");
-            tbody.innerHTML = data.length
-              ? data
-                  .map(
-                    (d) => `
+        const tbody = document.querySelector("#relics-table tbody");
+        tbody.innerHTML = data.length
+          ? data
+              .map(
+                (d) => `
         <tr>
           <td class="name">${d.relic_id}</td>
           <td class="num">${d.times_seen}</td>
@@ -994,30 +994,30 @@
           <td class="rate">${miniBar(d.win_rate, d.win_rate >= 0.6 ? "green" : d.win_rate >= 0.4 ? "gold" : "red")}</td>
         </tr>
       `,
-                  )
-                  .join("")
-              : emptyRow(4);
-          }
+              )
+              .join("")
+          : emptyRow(4);
+      }
 
-          // ── Encounters ───────────────────────────────────────────────────
-          async function loadEncounters() {
-            const act = document.getElementById("enc-act").value;
-            const roomType = document.getElementById("enc-type").value;
-            const sortBy = document.getElementById("enc-sort").value;
-            const extra = { sort_by: sortBy };
-            if (act) extra.act = act;
-            if (roomType) extra.room_types = roomType;
-            const q = buildQuery(extra);
-            const data = await apiFetch("/encounters" + q);
+      // ── Encounters ───────────────────────────────────────────────────
+      async function loadEncounters() {
+        const act = document.getElementById("enc-act").value;
+        const roomType = document.getElementById("enc-type").value;
+        const sortBy = document.getElementById("enc-sort").value;
+        const extra = { sort_by: sortBy };
+        if (act) extra.act = act;
+        if (roomType) extra.room_types = roomType;
+        const q = buildQuery(extra);
+        const data = await apiFetch("/encounters" + q);
 
-            // Max damage for scaling bars
-            const maxDmg = Math.max(1, ...data.map((d) => d.avg_damage_taken));
+        // Max damage for scaling bars
+        const maxDmg = Math.max(1, ...data.map((d) => d.avg_damage_taken));
 
-            const tbody = document.querySelector("#enc-table tbody");
-            tbody.innerHTML = data.length
-              ? data
-                  .map(
-                    (d) => `
+        const tbody = document.querySelector("#enc-table tbody");
+        tbody.innerHTML = data.length
+          ? data
+              .map(
+                (d) => `
         <tr>
           <td class="name">${d.encounter_id.replace("ENCOUNTER.", "")}</td>
           <td><span class="badge ${d.room_type}">${d.room_type}</span></td>
@@ -1027,176 +1027,201 @@
           <td class="rate">${miniBar(d.kill_rate, "red")}</td>
         </tr>
       `,
-                  )
-                  .join("")
-              : emptyRow(6);
-          }
+              )
+              .join("")
+          : emptyRow(6);
+      }
 
-          // ── UI helpers ───────────────────────────────────────────────────
-          function miniBar(ratio, colorClass, label = null) {
-            const pctVal = label ?? pct(ratio);
-            return `
+      // ── UI helpers ───────────────────────────────────────────────────
+      function miniBar(ratio, colorClass, label = null) {
+        const pctVal = label ?? pct(ratio);
+        return `
         <div class="bar-cell">
           <div class="bar-track">
             <div class="bar-fill ${colorClass}" style="width:${Math.min(100, ratio * 100).toFixed(1)}%"></div>
           </div>
           <span class="bar-label">${pctVal}</span>
         </div>`;
-          }
+      }
 
-          function emptyRow(cols) {
-            return `<tr><td colspan="${cols}" class="empty-state">No data — drop some .run files to get started</td></tr>`;
-          }
+      function emptyRow(cols) {
+        return `<tr><td colspan="${cols}" class="empty-state">No data — drop some .run files to get started</td></tr>`;
+      }
 
-          // ── Tab switching ────────────────────────────────────────────────
-          const LOADERS = {
-            overview: loadOverview,
-            cards: loadCards,
-            relics: loadRelics,
-            encounters: loadEncounters,
-          };
+      // ── Tab switching ────────────────────────────────────────────────
+      const LOADERS = {
+        overview: loadOverview,
+        cards: loadCards,
+        relics: loadRelics,
+        encounters: loadEncounters,
+      };
 
-          let activeTab = "overview";
+      let activeTab = "overview";
 
-          function switchTab(name) {
-            activeTab = name;
-            document
-              .querySelectorAll(".tab-btn")
-              .forEach((b) => b.classList.toggle("active", b.dataset.tab === name));
-            document
-              .querySelectorAll(".tab-panel")
-              .forEach((p) => p.classList.toggle("active", p.id === "tab-" + name));
-            LOADERS[name]();
-          }
+      function switchTab(name) {
+        activeTab = name;
+        document
+          .querySelectorAll(".tab-btn")
+          .forEach((b) => b.classList.toggle("active", b.dataset.tab === name));
+        document
+          .querySelectorAll(".tab-panel")
+          .forEach((p) => p.classList.toggle("active", p.id === "tab-" + name));
+        LOADERS[name]();
+      }
 
-          document.querySelectorAll(".tab-btn").forEach((btn) => {
-            btn.addEventListener("click", () => switchTab(btn.dataset.tab));
-          });
+      document.querySelectorAll(".tab-btn").forEach((btn) => {
+        btn.addEventListener("click", () => switchTab(btn.dataset.tab));
+      });
 
-          // ── Filters → reload ─────────────────────────────────────────────
-          function reloadActive() {
-            LOADERS[activeTab]();
-          }
+      // ── Filters → reload ─────────────────────────────────────────────
+      function reloadActive() {
+        LOADERS[activeTab]();
+      }
 
-          ["filter-char", "filter-asc-min", "filter-asc-max"].forEach((id) => {
-            document.getElementById(id).addEventListener("change", reloadActive);
-          });
-          document
-            .getElementById("filter-win-only")
-            .addEventListener("change", reloadActive);
-          document
-            .getElementById("cards-min-offers")
-            .addEventListener("change", loadCards);
-          document
-            .getElementById("cards-sort")
-            .addEventListener("change", loadCards);
-          document
-            .getElementById("relics-min-seen")
-            .addEventListener("change", loadRelics);
-          document
-            .getElementById("relics-sort")
-            .addEventListener("change", loadRelics);
-          ["enc-act", "enc-type", "enc-sort"].forEach((id) => {
-            document.getElementById(id).addEventListener("change", loadEncounters);
-          });
+      ["filter-char", "filter-asc-min", "filter-asc-max"].forEach((id) => {
+        document.getElementById(id).addEventListener("change", reloadActive);
+      });
+      document
+        .getElementById("filter-win-only")
+        .addEventListener("change", reloadActive);
+      document
+        .getElementById("cards-min-offers")
+        .addEventListener("change", loadCards);
+      document
+        .getElementById("cards-sort")
+        .addEventListener("change", loadCards);
+      document
+        .getElementById("relics-min-seen")
+        .addEventListener("change", loadRelics);
+      document
+        .getElementById("relics-sort")
+        .addEventListener("change", loadRelics);
+      ["enc-act", "enc-type", "enc-sort"].forEach((id) => {
+        document.getElementById(id).addEventListener("change", loadEncounters);
+      });
 
-          // ── Upload ───────────────────────────────────────────────────────
-          const uploadZone = document.getElementById("upload-zone");
-          const uploadInput = document.getElementById("upload-input");
-          const uploadStatus = document.getElementById("upload-status");
-          async function extractFiles(rawFiles) {
-            const result = [];
-            for (const file of rawFiles) {
-              if (file.name.endsWith(".zip")) {
-                try {
-                  const zip = await JSZip.loadAsync(file);
-                  for (const [filename, entry] of Object.entries(zip.files)) {
-                    if (filename.endsWith(".run") && !entry.dir) {
-                      const blob = await entry.async("blob");
-                      // Reconstruct as a File so it has a .name property
-                      result.push(new File([blob], filename.split("/").pop()));
-                    }
-                  }
-                } catch (e) {
-                  console.warn(`Could not extract ${file.name}:`, e);
+      // ── Upload ───────────────────────────────────────────────────────
+      const uploadZone = document.getElementById("upload-zone");
+      const uploadInput = document.getElementById("upload-input");
+      const uploadStatus = document.getElementById("upload-status");
+
+      async function extractFiles(rawFiles) {
+        const result = [];
+        for (const file of rawFiles) {
+          if (file.name.endsWith(".zip")) {
+            try {
+              const zip = await JSZip.loadAsync(file);
+              for (const [filename, entry] of Object.entries(zip.files)) {
+                if (filename.endsWith(".run") && !entry.dir) {
+                  const blob = await entry.async("blob");
+                  // Reconstruct as a File so it has a .name property
+                  result.push(new File([blob], filename.split("/").pop()));
                 }
-              } else if (file.name.endsWith(".run")) {
-                result.push(file);
               }
+            } catch (e) {
+              console.warn(`Could not extract ${file.name}:`, e);
             }
-            return result;
+          } else if (file.name.endsWith(".run")) {
+            result.push(file);
           }
-          uploadZone.addEventListener("click", () => uploadInput.click());
-          uploadInput.addEventListener("change", () =>
-            uploadFiles(uploadInput.files),
-          );
+        }
+        return result;
+      }
 
-          uploadZone.addEventListener("dragover", (e) => {
-            e.preventDefault();
-            uploadZone.classList.add("drag-over");
+      uploadZone.addEventListener("click", () => uploadInput.click());
+
+      uploadInput.addEventListener("change", () => {
+        uploadFiles(uploadInput.files);
+        // Reset the input so the same file can be selected again if needed
+        uploadInput.value = "";
+      });
+
+      // Added dragenter for better cross-browser compatibility
+      uploadZone.addEventListener("dragenter", (e) => {
+        e.preventDefault();
+      });
+
+      uploadZone.addEventListener("dragover", (e) => {
+        e.preventDefault();
+        uploadZone.classList.add("drag-over");
+      });
+
+      uploadZone.addEventListener("dragleave", () =>
+        uploadZone.classList.remove("drag-over"),
+      );
+
+      uploadZone.addEventListener("drop", (e) => {
+        e.preventDefault();
+        uploadZone.classList.remove("drag-over");
+        uploadFiles(e.dataTransfer.files);
+      });
+
+      async function uploadFiles(rawFiles) {
+        const files = await extractFiles(rawFiles);
+
+        if (!files.length) {
+          // Provide feedback if no valid .run files were found
+          uploadStatus.textContent = "No valid .run files found.";
+          uploadStatus.className = "err";
+          return;
+        }
+
+        uploadStatus.textContent = "Uploading...";
+        uploadStatus.className = "";
+
+        const form = new FormData();
+        for (const f of files) form.append("files", f);
+
+        try {
+          const res = await fetch(API + "/upload", {
+            method: "POST",
+            body: form,
           });
-          uploadZone.addEventListener("dragleave", () =>
-            uploadZone.classList.remove("drag-over"),
-          );
-          uploadZone.addEventListener("drop", (e) => {
-            e.preventDefault();
-            uploadZone.classList.remove("drag-over");
-            uploadFiles(e.dataTransfer.files);
-          });
 
-          async function uploadFiles(rawFiles) {
-            const files = await extractFiles(rawFiles);
-            if (!files.length) return;
-            uploadStatus.textContent = "Uploading...";
-            uploadStatus.className = "";
+          if (!res.ok)
+            throw new Error(`Server responded with status ${res.status}`);
 
-            const form = new FormData();
-            for (const f of files) form.append("files", f);
+          const result = await res.json();
+          const n = result.loaded ? result.loaded.length : 0;
+          const f = result.failed ? result.failed.length : 0;
 
-            try {
-              const res = await fetch(API + "/upload", {
-                method: "POST",
-                body: form,
-              });
-              const result = await res.json();
-              const n = result.loaded.length;
-              const f = result.failed.length;
-              uploadStatus.textContent = `${n} loaded${f ? ", " + f + " failed" : ""}`;
-              uploadStatus.className = f && !n ? "err" : "ok";
-              if (n > 0) {
-                await refreshCharacters();
-                reloadActive();
-              }
-            } catch (err) {
-                console.error('Upload error:', err);
-                uploadStatus.textContent = "Upload failed";
-                uploadStatus.className = "err";
-            }
+          uploadStatus.textContent = `${n} loaded${f ? ", " + f + " failed" : ""}`;
+          uploadStatus.className = f && !n ? "err" : "ok";
 
-          // ── Character filter population ───────────────────────────────────
-          async function refreshCharacters() {
-            try {
-              const chars = await apiFetch("/characters");
-              const sel = document.getElementById("filter-char");
-              const cur = sel.value;
-              sel.innerHTML =
-                '<option value="">All</option>' +
-                chars
-                  .map(
-                    (c) =>
-                      `<option value="${c}"${c === cur ? " selected" : ""}>${c}</option>`,
-                  )
-                  .join("");
-            } catch {
-              /* if API not up yet, ignore */
-            }
-          }
-
-          // ── Boot ─────────────────────────────────────────────────────────
-          (async () => {
+          if (n > 0) {
             await refreshCharacters();
-            loadOverview();
-          })();
+            reloadActive();
+          }
+        } catch (err) {
+          console.error("Upload error:", err);
+          uploadStatus.textContent = "Upload failed";
+          uploadStatus.className = "err";
+        }
+      }
+      // ── Character filter population ───────────────────────────────────
+      async function refreshCharacters() {
+        try {
+          const chars = await apiFetch("/characters");
+          const sel = document.getElementById("filter-char");
+          const cur = sel.value;
+          sel.innerHTML =
+            '<option value="">All</option>' +
+            chars
+              .map(
+                (c) =>
+                  `<option value="${c}"${c === cur ? " selected" : ""}>${c}</option>`,
+              )
+              .join("");
+        } catch {
+          /* if API not up yet, ignore */
+        }
+      }
+
+      // ── Boot ─────────────────────────────────────────────────────────
+      (async () => {
+        await refreshCharacters();
+        loadOverview();
+      })();
     </script>
   </body>
 </html>
