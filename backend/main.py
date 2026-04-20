@@ -65,7 +65,7 @@ app = FastAPI(title="STS2 Run Analyser", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://spirestats.netlify.app", "http://localhost:3000"],
+    allow_origins=["https://spirestats.netlify.app"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
