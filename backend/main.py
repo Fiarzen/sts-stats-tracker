@@ -10,6 +10,7 @@ Run from the backend/ directory:
 
 import shutil
 import tempfile
+import io
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Optional

@@ -1182,6 +1182,7 @@
             throw new Error(`Server responded with status ${res.status}`);
 
           const result = await res.json();
+          console.log("Upload result:", JSON.stringify(result));
           const n = result.loaded ? result.loaded.length : 0;
           const f = result.failed ? result.failed.length : 0;
 
