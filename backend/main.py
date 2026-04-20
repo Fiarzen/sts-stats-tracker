@@ -19,6 +19,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
+from database import init_db, save_run, load_all_runs_from_db
 from models import NormalisedRun
 from parser import load_run, load_runs_from_directory
 from stats import (
@@ -50,8 +51,9 @@ _runs: list[NormalisedRun] = []
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global _runs
-    _runs = load_runs_from_directory(RUNS_DIR)
-    print(f"Loaded {len(_runs)} run(s) from {RUNS_DIR}")
+    init_db()
+    _runs = load_all_runs_from_db()
+    print(f"Loaded {len(_runs)} run(s) from database")
     yield
 
 
@@ -219,29 +221,20 @@ def get_characters():
 
 @app.post("/api/upload")
 async def upload_runs(files: list[UploadFile] = File(...)):
-    """
-    Upload one or more .run files. They are saved to the runs/ directory
-    and parsed immediately into the in-memory store.
-    """
     global _runs
-    results = {"loaded": [], "failed": []}
+    results = {"loaded": [], "skipped": [], "failed": []}
 
     for upload in files:
-        if not upload.filename or not upload.filename.endswith(".run"):
-            results["failed"].append({"file": upload.filename, "reason": "Not a .run file"})
-            continue
-
-        dest = RUNS_DIR / upload.filename
         try:
-            with dest.open("wb") as f:
-                shutil.copyfileobj(upload.file, f)
-            run = load_run(dest)
-            # Replace existing run with same seed if re-uploading
-            _runs = [r for r in _runs if r.seed != run.seed]
-            _runs.append(run)
-            results["loaded"].append(upload.filename)
+            contents = await upload.read()
+            run = load_run(io.BytesIO(contents))
+            inserted = save_run(run)
+            if inserted:
+                _runs = [r for r in _runs if r.seed != run.seed] + [run]
+                results["loaded"].append(upload.filename)
+            else:
+                results["skipped"].append(upload.filename)  # duplicate seed
         except Exception as exc:
-            dest.unlink(missing_ok=True)
             results["failed"].append({"file": upload.filename, "reason": str(exc)})
 
     return results
