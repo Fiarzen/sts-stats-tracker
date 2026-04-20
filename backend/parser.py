@@ -17,10 +17,12 @@ from models import CardOffer, Encounter, NormalisedRun, RelicAcquired
 # Public API
 # ---------------------------------------------------------------------------
 
-def load_run(filepath: str | Path) -> NormalisedRun:
-    """Parse a single .run file and return a NormalisedRun."""
-    with open(filepath, "r", encoding="utf-8") as f:
-        raw = json.load(f)
+def load_run(source):
+    if isinstance(source, (str, Path)):
+        with open(source, "r", encoding="utf-8") as f:
+            raw = json.load(f)
+    else:
+        raw = json.load(source)  # BytesIO or any file-like object
     return _parse_run(raw)
 
 
