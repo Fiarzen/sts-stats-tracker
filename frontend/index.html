@@ -761,8 +761,38 @@
         return p.toString() ? "?" + p.toString() : "";
       }
 
-      async function apiFetch(path) {
-        const res = await fetch(API + path);
+      let sessionFiles = [];
+
+      async function handleFiles(rawFiles) {
+        const extracted = await extractFiles(rawFiles);
+        if (!extracted.length) return;
+
+        // Merge with existing session files, avoid duplicates by name
+        const existingNames = new Set(sessionFiles.map((f) => f.name));
+        const newFiles = extracted.filter((f) => !existingNames.has(f.name));
+        sessionFiles = [...sessionFiles, ...newFiles];
+
+        uploadStatus.textContent = `${sessionFiles.length} run(s) loaded`;
+        uploadStatus.className = "ok";
+
+        await refreshCharacters();
+        reloadActive();
+      }
+
+      // Every API call sends session files instead of fetching from server
+      async function apiFetch(path, extraParams = {}) {
+        if (!sessionFiles.length) return null;
+
+        const url = new URL(API + path, window.location.href);
+        for (const [k, v] of Object.entries(extraParams)) {
+          if (v !== null && v !== undefined && v !== "")
+            url.searchParams.set(k, v);
+        }
+
+        const form = new FormData();
+        for (const f of sessionFiles) form.append("files", f);
+
+        const res = await fetch(url.toString(), { method: "POST", body: form });
         if (!res.ok) throw new Error(await res.text());
         return res.json();
       }
@@ -787,7 +817,12 @@
 
       // ── Overview ─────────────────────────────────────────────────────
       async function loadOverview() {
-        const summary = await apiFetch("/summary" + buildQuery());
+        const summary = await apiFetch("/summary", getFilters());
+        if (!summary) {
+          document.getElementById("summary-grid").innerHTML =
+            '<div class="empty-state">Drop your .run files or a zip to get started</div>';
+          return;
+        }
         const grid = document.getElementById("summary-grid");
 
         const m = Math.floor(summary.avg_run_time_seconds / 60);
@@ -1131,7 +1166,7 @@
       uploadZone.addEventListener("click", () => uploadInput.click());
 
       uploadInput.addEventListener("change", () => {
-        uploadFiles(uploadInput.files);
+        handleFiles(uploadInput.files);
         // Reset the input so the same file can be selected again if needed
         uploadInput.value = "";
       });
@@ -1153,7 +1188,7 @@
       uploadZone.addEventListener("drop", (e) => {
         e.preventDefault();
         uploadZone.classList.remove("drag-over");
-        uploadFiles(e.dataTransfer.files);
+        handleFiles(e.dataTransfer.files);
       });
 
       async function uploadFiles(rawFiles) {
